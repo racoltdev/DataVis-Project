@@ -258,10 +258,6 @@
 					.scale(scale)
 					.center([0, 0])
 					.translate([width / 2, height / 2]);
-
-				// update path definitions
-				g.selectAll("path.country").attr("d", path);
-				gratPath.attr("d", path(graticule()));
 			}
 
 			// Setup d3-zoom for pan & zoom with limits
