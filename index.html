@@ -208,7 +208,7 @@
 
 		// Projection: Mercator. We'll set scale/translate in resize()
 		const projection = d3.geoMercator();
-		const path = d3.geoPath().projection(projection);
+		const geopath_generator = d3.geoPath().projection(projection);
 
 		// Draw graticule first (so it's below countries)
 		const gratPath = g.append("path")
@@ -225,9 +225,10 @@
 			// create country shapes
 			g.selectAll("path.country")
 				.data(countries.features)
-				.join("path")
+				.enter()
+				.append("path")
 				.attr("class", "country")
-				.attr("d", path)
+				.attr("d", d => geopath_generator(d))
 				.on("mouseenter", function(event, d) {
 					d3.select(this).raise();
 					tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
@@ -288,12 +289,7 @@
 			// initial resize and attach window resize listener
 			resize();
 			window.addEventListener("resize", resize);
-		}).catch(err => {
-			console.error("Failed to load topojson:", err);
-			container.append("div").style("color","crimson").style("padding","12px")
-				.text("Could not load world data. Check network or the topojson URL.");
-		});
-
+		})
 	</script>
 </body>
 </html>
