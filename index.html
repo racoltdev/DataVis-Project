@@ -1,35 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<title>VROOOOOOOOOOOOOM</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	
+	<!-- D3 v7 & TopoJSON client from CDN -->
 	<script src="./libs/d3.js"></script>
 	<script src="libs/d3jstopojson.v1.js"></script>
-	<title>VROOOOOOOOOOOOOM</title>
+
 	<style>
-		title {
-			font-family: "Segoe UI";
+		/* page layout */
+		html,body { height:100%; margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:#f4f6f8; }
+		.wrap { max-width:1100px; margin:18px auto; padding:12px; }
+		h1 { font-size:18px; margin:0 0 10px 0; color:#111827; }
+		.map-card {
+			background: white;
+			border-radius:10px;
+			box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+			padding:10px;
 		}
+
+		/* svg container */
+		.map-container {
+			width:100%;
+			height:550px;
+			position:relative;
+		}
+
+		/* tooltip */
+		.tooltip {
+			position: absolute;
+			pointer-events: none;
+			background: rgba(15,23,42,0.92);
+			color: #fff;
+			padding: 6px 8px;
+			font-size: 13px;
+			border-radius: 4px;
+			transform: translate(-50%, -120%);
+			white-space: nowrap;
+			box-shadow: 0 4px 12px rgba(2,6,23,0.3);
+			opacity: 0;
+			transition: opacity 120ms ease;
+			z-index: 10;
+		}
+
+		/* country styles */
+		.country {
+			fill: #e6eef6;
+			stroke: #cfdcec;
+			stroke-width: 0.6px;
+		}
+		.country:hover {
+			fill: #9fbcec;
+			stroke: #6a98d6;
+			stroke-width: 0.9px;
+			cursor: pointer;
+		}
+
+		/* graticule (lat/long) */
+		.graticule {
+			fill: none;
+			stroke: rgba(10, 25, 47, 0.06);
+			stroke-width: 0.8px;
+		}
+
+		/* controls */
+		.controls {
+			margin-top:8px;
+			display:flex;
+			gap:8px;
+			align-items:center;
+			flex-wrap:wrap;
+		}
+
+		.btn {
+			border: none;
+			background: #111827;
+			color: white;
+			padding: 7px 10px;
+			border-radius: 6px;
+			font-size: 13px;
+			cursor: pointer;
+		}
+
+		.btn.secondary {
+			background:#e6eef6;
+			color:#0f172a;
+		}
+
+		.foot {
+			font-size:12px;
+			color:#475569;
+			margin-top:8px;
+		}
+
 		.container {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
 		}
+
 		.row {
 			display: flex;
 			gap: 1rem;
 		}
+
 		.half {
 			flex: 1;
 		}
+
 		.line-cont {
 			
 		 }
+
 	</style>
-<head>
+</head>
+
+
+	
 <body>
 	<div class="container">
 		<h1>VROOOOOOOOOOOOOM</h1>
@@ -38,29 +128,29 @@
 	<!---- YEAR SELECTOR ---->
 	
 	<div class="container">	
-			<label for="year">Select Year:</label>
-			<select id="year"></select>
+		<label for="year">Select Year:</label>
+		<select id="year"></select>
 
-			<script>
-			const startYear = 2025;
-			const endYear = 1950;
-			const select = document.getElementById('year');
+		<script>
+		const startYear = 2025;
+		const endYear = 1950;
+		const select = document.getElementById('year');
 
-			// Add a placeholder option
-			const placeholder = document.createElement('option');
-			placeholder.value = "";
-			placeholder.textContent = "--Choose a year--";
-			select.appendChild(placeholder);
+		// Add a placeholder option
+		const placeholder = document.createElement('option');
+		placeholder.value = "";
+		placeholder.textContent = "--Choose a year--";
+		select.appendChild(placeholder);
 
-			// Populate the dropdown
-			for (let y = startYear; y >= endYear; y--) {
-				const option = document.createElement('option');
-				option.value = y;
-				option.textContent = y;
-				select.appendChild(option);
-			}
-			</script>
-		</div>
+		// Populate the dropdown
+		for (let y = startYear; y >= endYear; y--) {
+			const option = document.createElement('option');
+			option.value = y;
+			option.textContent = y;
+			select.appendChild(option);
+		}
+		</script>
+	</div>
 
 	<div class="row"> <!-- HOUSES TWO VISUALIZATIONS SIDE BY SIDE -->
 
@@ -68,6 +158,19 @@
 		<div class="container half">
 			<!-- INSERT JAVASCRIPT -->
 			<h2> Formula 1 Travel Map for the Year 2025 </h2>
+			<div class="wrap">
+				<div class="map-card">
+					<div id="map" class="map-container"></div>
+
+					<div class="controls">
+						<button id="reset" class="btn">Reset zoom</button>
+						<button id="zoom-in" class="btn secondary">Zoom in</button>
+						<button id="zoom-out" class="btn secondary">Zoom out</button>
+					</div>
+
+					<div class="foot">Projection: <strong>Mercator</strong>.</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- TRAVEL DATA BAR CHARTS -->
@@ -83,3 +186,114 @@
 		<h2> Distance travelled within races vs Distance travelled outside races visualization </h2>
 	</div>
 </body>
+
+	<script>
+
+		// Config
+		const topoJsonUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"; // topojson file (countries)
+		const container = d3.select("#map");
+		const tooltip = container.append("div").attr("class","tooltip");
+
+		// Create responsive SVG
+		const svg = container.append("svg")
+			.attr("width", "100%")
+			.attr("height", "100%")
+			.style("display", "block");
+
+		// We'll create a group for map content and apply zoom transforms to it
+		const g = svg.append("g").attr("class","map-layer");
+
+		// Graticule (optional)
+		const graticule = d3.geoGraticule();
+
+		// Projection: Mercator. We'll set scale/translate in resize()
+		const projection = d3.geoMercator();
+		const path = d3.geoPath().projection(projection);
+
+		// Draw graticule first (so it's below countries)
+		const gratPath = g.append("path")
+			.datum(graticule)
+			.attr("class","graticule")
+			.attr("fill","none")
+			.attr("stroke","#e8eef8");
+
+		// Load TopoJSON and render map
+		d3.json(topoJsonUrl).then(topology => {
+			// topojson.feature converts to GeoJSON FeatureCollection
+			const countries = topojson.feature(topology, topology.objects.countries);
+
+			// create country shapes
+			g.selectAll("path.country")
+				.data(countries.features)
+				.join("path")
+				.attr("class", "country")
+				.attr("d", path)
+				.on("mouseenter", function(event, d) {
+					d3.select(this).raise();
+					tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
+				})
+				.on("mousemove", function(event) {
+					const [mx,my] = d3.pointer(event, container.node());
+					tooltip.style("left", mx + "px").style("top", my + "px");
+				})
+				.on("mouseleave", function() {
+					tooltip.style("opacity", 0);
+				});
+
+			// On first render and on window resize, compute scale/translate to fit the world
+			function resize() {
+				const rect = container.node().getBoundingClientRect();
+				const width = Math.max(200, rect.width);
+				const height = Math.max(200, rect.height);
+
+				// set SVG viewport
+				svg.attr("viewBox", `0 0 ${width} ${height}`);
+
+				// Choose a scale; Mercator is typically narrower vertically. This is a sensible default.
+				const scale = Math.min(width / (2 * Math.PI), height / (Math.PI)) * 150;
+
+				// Center on [0,0] (longitude 0, latitude 0) and translate to middle of svg
+				projection
+					.scale(scale)
+					.center([0, 0])
+					.translate([width / 2, height / 2]);
+
+				// update path definitions
+				g.selectAll("path.country").attr("d", path);
+				gratPath.attr("d", path(graticule()));
+			}
+
+			// Setup d3-zoom for pan & zoom with limits
+			const zoom = d3.zoom()
+				.scaleExtent([1, 8])
+				.on("zoom", (event) => {
+					g.attr("transform", event.transform);
+				});
+
+			svg.call(zoom);
+
+			// control buttons
+			d3.select("#reset").on("click", () => {
+				svg.transition().duration(700).call(zoom.transform, d3.zoomIdentity);
+			});
+
+			d3.select("#zoom-in").on("click", () => {
+				svg.transition().duration(450).call(zoom.scaleBy, 1.5);
+			});
+
+			d3.select("#zoom-out").on("click", () => {
+				svg.transition().duration(450).call(zoom.scaleBy, 1 / 1.5);
+			});
+
+			// initial resize and attach window resize listener
+			resize();
+			window.addEventListener("resize", resize);
+		}).catch(err => {
+			console.error("Failed to load topojson:", err);
+			container.append("div").style("color","crimson").style("padding","12px")
+				.text("Could not load world data. Check network or the topojson URL.");
+		});
+
+	</script>
+</body>
+</html>
