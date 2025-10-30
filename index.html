@@ -18,10 +18,68 @@
 			align-items: center;
 			justify-content: center;
 		}
+		.row {
+			display: flex;
+			gap: 1rem;
+		}
+		.half {
+			flex: 1;
+		}
+		.line-cont {
+			
+		 }
 	</style>
 <head>
 <body>
 	<div class="container">
 		<h1>VROOOOOOOOOOOOOM</h1>
+	</div>
+
+	<!---- YEAR SELECTOR ---->
+	
+	<div class="container">	
+			<label for="year">Select Year:</label>
+			<select id="year"></select>
+
+			<script>
+			const startYear = 2025;
+			const endYear = 1950;
+			const select = document.getElementById('year');
+
+			// Add a placeholder option
+			const placeholder = document.createElement('option');
+			placeholder.value = "";
+			placeholder.textContent = "--Choose a year--";
+			select.appendChild(placeholder);
+
+			// Populate the dropdown
+			for (let y = startYear; y >= endYear; y--) {
+				const option = document.createElement('option');
+				option.value = y;
+				option.textContent = y;
+				select.appendChild(option);
+			}
+			</script>
+		</div>
+
+	<div class="row"> <!-- HOUSES TWO VISUALIZATIONS SIDE BY SIDE -->
+
+		<!-- TRAVEL MAP PROJECTION -->
+		<div class="container half">
+			<!-- INSERT JAVASCRIPT -->
+			<h2> Formula 1 Travel Map for the Year 2025 </h2>
+		</div>
+
+		<!-- TRAVEL DATA BAR CHARTS -->
+		<div class="container half">
+			<!-- INSERT JAVASCRIPT -->
+			<h2> Formula 1 Travel Data for the Year 2025 </h2>
+		</div>
+
+	</div>
+
+	<div class="container line-cont"> <!-- HOUSES THIRD VISUALIZATION -->
+		<!-- INSERT JAVASCRIPT FOR HORIZONTAL STACKED BAR GRAPH -->
+		<h2> Distance travelled within races vs Distance travelled outside races visualization </h2>
 	</div>
 </body>
