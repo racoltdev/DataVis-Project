@@ -1,0 +1,170 @@
+
+html,body { 
+    height:100%; margin:0; background:#f4f6f8; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
+}
+
+.wrap { 
+    max-width:1100px; 
+    margin:18px auto; 
+    padding:12px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 { 
+    font-size:18px; 
+    margin:0 0 10px 0; 
+    color:#111827;
+    text-align: center;
+}
+
+.map-card {
+    background: white;
+    border-radius:10px;
+    box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+    padding:10px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+/* svg container */
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    /* Use aspect-ratio so the SVG/map scales responsively */
+    aspect-ratio: 16 / 9;
+    min-height: 240px;
+    max-height: 1400px;
+    position: relative;
+}
+
+/* tooltip */
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: rgba(15,23,42,0.92);
+    color: #fff;
+    padding: 6px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    transform: translate(-50%, -120%);
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(2,6,23,0.3);
+    opacity: 0;
+    transition: opacity 120ms ease;
+    z-index: 10;
+}
+
+/* country styles */
+.country {
+    fill: #e6eef6;
+    stroke: #cfdcec;
+    stroke-width: 0.6px;
+}
+.country:hover {
+    fill: #9fbcec;
+    stroke: #6a98d6;
+    stroke-width: 0.9px;
+    cursor: pointer;
+}
+
+/* graticule (lat/long) */
+.graticule {
+    fill: none;
+    stroke: rgba(10, 25, 47, 0.06);
+    stroke-width: 0.8px;
+}
+
+/* controls */
+.controls {
+    margin-top:8px;
+    display:flex;
+    gap:8px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.btn {
+    border: none;
+    background: #111827;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background:#e6eef6;
+    color:#0f172a;
+}
+
+.foot {
+    font-size:12px;
+    color:#475569;
+    margin-top:8px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.half {
+    flex: 1 1 480px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+/* Give the left half (map) more space on wide screens */
+.row .half:first-child {
+    flex: 2 1 700px;
+}
+}
+
+.line-cont { display: block; }
+
+/* Responsive adjustments */
+@media (max-width: 1100px) {
+    .wrap { padding: 10px; }
+    h1 { font-size: 17px; }
+}
+
+@media (max-width: 900px) {
+    .wrap { margin: 12px auto; }
+    .row { flex-direction: column; gap: 0.75rem; }
+    .half { flex-basis: 100%; min-width: 0; }
+    .map-container { aspect-ratio: 4 / 3; min-height: 260px; }
+    .controls { gap: 6px; }
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 15px; }
+    .btn { padding: 6px 8px; font-size: 12px; }
+    .tooltip { font-size: 12px; white-space: normal; max-width: 180px; }
+    .map-container { min-height: 200px; }
+}
+
+/* Utility: ensure embedded SVGs fill container */
+.map-container svg {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
