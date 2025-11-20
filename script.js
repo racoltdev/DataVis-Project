@@ -1,5 +1,6 @@
 // Config
 const topoJsonUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"; // topojson file (countries)
+const circuits = "./data/circuits.csv"
 const container = d3.select("#map");
 const tooltip = container.append("div").attr("class","tooltip");
 
@@ -27,7 +28,11 @@ const gratPath = g.append("path")
     .attr("stroke","#e8eef8");
 
 // Load TopoJSON and render map
-d3.json(topoJsonUrl).then(topology => {
+Promise.all([
+	d3.json(topoJsonUrl),
+	d3.csv(circuits)
+]).then(data => {
+	const [topology, circuits] = data
     // topojson.feature converts to GeoJSON FeatureCollection
     const countries = topojson.feature(topology, topology.objects.countries);
 
@@ -49,6 +54,27 @@ d3.json(topoJsonUrl).then(topology => {
         .on("mouseleave", function() {
             tooltip.style("opacity", 0);
         });
+
+	let circuitLocations = []
+	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
+
+	console.log(circuitLocations)
+	let circuitPath = g.selectAll("circuit")
+	    .data(circuitLocations)
+		.enter()
+		.append("circle")
+	    .attr("class","circuit")
+		.attr("cx", (d) => { return projection(+d)[0] })
+    	.attr("cy", (d) => { return projection(+d)[1] })
+		.attr("r", 1)
+	    .attr("fill","#000")
+	    .attr("stroke","#000")
+		.attr("transform", function(d) {
+    		return "translate(" + projection([
+    		  d[0],
+    		  d[1]
+    		]) + ")";
+		});
 
     // On first render and on window resize, compute scale/translate to fit the world
     function resize() {
