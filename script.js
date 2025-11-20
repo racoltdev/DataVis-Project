@@ -44,7 +44,7 @@ Promise.all([
         .attr("class", "country")
         .attr("d", d => geopath_generator(d))
         .on("mouseenter", function(event, d) {
-            d3.select(this).raise();
+            //d3.select(this).raise();
             tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
         })
         .on("mousemove", function(event) {
@@ -58,7 +58,6 @@ Promise.all([
 	let circuitLocations = []
 	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
 
-	console.log(circuitLocations)
 	let circuitPath = g.selectAll("circuit")
 	    .data(circuitLocations)
 		.enter()
@@ -69,11 +68,8 @@ Promise.all([
 		.attr("r", 1)
 	    .attr("fill","#000")
 	    .attr("stroke","#000")
-		.attr("transform", function(d) {
-    		return "translate(" + projection([
-    		  d[0],
-    		  d[1]
-    		]) + ")";
+		.attr("transform", (d) => {
+    		return "translate(" + projection(d) + ")";
 		});
 
     // On first render and on window resize, compute scale/translate to fit the world
