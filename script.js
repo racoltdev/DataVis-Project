@@ -1,6 +1,7 @@
 // Config
 const topoJsonUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"; // topojson file (countries)
 const circuits = "./data/circuits.csv"
+const all_races = "./data/races.csv"
 const container = d3.select("#map");
 const tooltip = container.append("div").attr("class","tooltip");
 
@@ -27,12 +28,15 @@ const gratPath = g.append("path")
     .attr("fill","none")
     .attr("stroke","#e8eef8");
 
+let updateYear;
+
 // Load TopoJSON and render map
 Promise.all([
 	d3.json(topoJsonUrl),
-	d3.csv(circuits)
+	d3.csv(circuits),
+	d3.csv(all_races)
 ]).then(data => {
-	const [topology, circuits] = data
+	const [topology, circuits, all_races] = data
     // topojson.feature converts to GeoJSON FeatureCollection
     const countries = topojson.feature(topology, topology.objects.countries);
 
@@ -62,6 +66,7 @@ Promise.all([
 		.enter()
 		.append("circle")
 	    .attr("class","circuit")
+		.attr("id", function(d, i) {return `circuit ${d["id"]}`})
 		.attr("cx", (d) => { return projection(+d)['lng'] })
     	.attr("cy", (d) => { return projection(+d)['lat'] })
 		.attr("r", 1)
@@ -79,7 +84,23 @@ Promise.all([
         })
         .on("mouseleave", function() {
             tooltip.style("opacity", 0);
-        });
+        })
+
+
+	updateYear = function() {
+		circuitPath.attr("opacity", (d) => {
+				circuit = d.circuitId;
+				year = document.getElementById("year").value
+				opacity = 0.0;
+				all_races.some((race) => {
+					if (race["circuitId"] == circuit && race["year"] == year) {
+						opacity = 1.0;
+						return true
+					}
+				})
+				return opacity;
+			})
+	}
 
     // On first render and on window resize, compute scale/translate to fit the world
     function resize() {
@@ -126,3 +147,4 @@ Promise.all([
     resize();
     window.addEventListener("resize", resize);
 })
+
