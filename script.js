@@ -44,7 +44,6 @@ Promise.all([
         .attr("class", "country")
         .attr("d", d => geopath_generator(d))
         .on("mouseenter", function(event, d) {
-            //d3.select(this).raise();
             tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
         })
         .on("mousemove", function(event) {
@@ -59,18 +58,28 @@ Promise.all([
 	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
 
 	let circuitPath = g.selectAll("circuit")
-	    .data(circuitLocations)
+	    .data(circuits)
 		.enter()
 		.append("circle")
 	    .attr("class","circuit")
-		.attr("cx", (d) => { return projection(+d)[0] })
-    	.attr("cy", (d) => { return projection(+d)[1] })
+		.attr("cx", (d) => { return projection(+d)['lng'] })
+    	.attr("cy", (d) => { return projection(+d)['lat'] })
 		.attr("r", 1)
 	    .attr("fill","#000")
 	    .attr("stroke","#000")
 		.attr("transform", (d) => {
-    		return "translate(" + projection(d) + ")";
-		});
+    		return "translate(" + projection([d['lng'], d['lat']]) + ")";
+		})
+		.on("mouseenter", function(event, d) {
+			tooltip.style("opacity", 1).text(d["name"] || "Unknown");
+		})
+        .on("mousemove", function(event) {
+            const [mx,my] = d3.pointer(event, container.node());
+            tooltip.style("left", mx + "px").style("top", my + "px");
+        })
+        .on("mouseleave", function() {
+            tooltip.style("opacity", 0);
+        });
 
     // On first render and on window resize, compute scale/translate to fit the world
     function resize() {
