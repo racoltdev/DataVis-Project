@@ -88,18 +88,65 @@ Promise.all([
 
 
 	updateYear = function() {
+		const races_this_year = []
 		circuitPath.attr("opacity", (d) => {
-				circuit = d.circuitId;
-				year = document.getElementById("year").value
-				opacity = 0.0;
-				all_races.some((race) => {
-					if (race["circuitId"] == circuit && race["year"] == year) {
-						opacity = 1.0;
-						return true
-					}
-				})
-				return opacity;
+			circuit = d.circuitId;
+			year = document.getElementById("year").value
+			opacity = 0.0;
+			all_races.some((race) => {
+				if (race["circuitId"] == circuit && race["year"] == year) {
+					races_this_year.push(race);
+					opacity = 1.0;
+					return true
+				}
 			})
+			return opacity;
+		})
+
+
+		const lines = []
+
+		races_this_year.forEach((race) => {
+			circuits.forEach((circuit) => {
+				if (race["circuitId"] == circuit["circuitId"]) {
+					lines.push([{x: circuit["lng"], y: circuit["lat"]}])
+				}
+			})
+		})
+
+		console.log(lines);
+
+//		const lineGenerator = d3.line()
+//		    .x(d => projection([+d.x, +d.y])[0])
+//		    .y(d => projection([+d.x, +d.y])[1]);
+//
+//		let grand_paths = g.selectAll("path.line")
+//		    .data(lines)
+//		    .enter()
+//		    .append("path")
+//		    .attr("class", "line")
+//		    .attr("d", d => lineGenerator(d))
+//		    .attr("stroke", "black")
+//		    .attr("stroke-width", 2)
+//		    .attr("fill", "none")
+//			.attr("transform", (d) => {
+//    			return "translate(" + projection([+d.x, +d.y]) + ")";
+//			})
+
+//		let grand_paths = g.selectAll("line")
+//			.data(lines)
+//			.enter()
+//			.append("path")
+//			.attr("d", d3.line()
+//				.x((d) => x(projection(+d.x)))
+//				.y((d) => y(projection(+d.y)))
+//			)
+//			.attr("stroke", "black")
+//			.attr("stroke-width", "10px")
+//			.attr("transform", (d) => {
+//    			return "translate(" + projection([+d.x, +d.y]) + ")";
+//			})
+		console.log(grand_paths)
 	}
 
     // On first render and on window resize, compute scale/translate to fit the world
