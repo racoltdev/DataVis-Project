@@ -104,24 +104,28 @@ Promise.all([
 		})
 
 
-		const lines = []
+		const points = []
 
 		races_this_year.forEach((race) => {
 			circuits.forEach((circuit) => {
 				if (race["circuitId"] == circuit["circuitId"]) {
-					lines.push({x: +circuit["lng"], y: +circuit["lat"]})
+					points.push({x: +circuit["lng"], y: +circuit["lat"]})
 				}
 			})
 		})
 
-		console.log(lines);
+		console.log(points);
+
+		const lineSegments = points.slice(0, -1).map((point, i) => {
+			return [point, points[i + 1]];
+		});
 
 		const lineGenerator = d3.line()
 		    .x(d => projection([d.x, d.y])[0])
 		    .y(d => projection([d.x, d.y])[1]);
 
 		let grand_paths = g.selectAll("travel-line")
-		    .data(lines)
+		    .data(lineSegments)
 			.enter()
 			.append("path")
 			.attr("class", "travel-line")
