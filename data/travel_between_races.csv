@@ -1,0 +1,1074 @@
+year,from_round,from_circuitId,from_name,from_lat,from_lng,to_round,to_circuitId,to_name,to_lat,to_lng,distance_km,cumulative_km
+2009,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2009,2,2,Sepang International Circuit,2.76083,101.738,3,17,Shanghai International Circuit,31.3389,121.22,3777.389,10111.97
+2009,3,17,Shanghai International Circuit,31.3389,121.22,4,3,Bahrain International Circuit,26.0325,50.5106,6804.824,16916.795
+2009,4,3,Bahrain International Circuit,26.0325,50.5106,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,21627.725
+2009,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,22113.367
+2009,6,6,Circuit de Monaco,43.7347,7.42056,7,5,Istanbul Park,40.9517,29.405,1827.536,23940.903
+2009,7,5,Istanbul Park,40.9517,29.405,8,9,Silverstone Circuit,52.0786,-1.01694,2609.324,26550.227
+2009,8,9,Silverstone Circuit,52.0786,-1.01694,9,20,Nürburgring,50.3356,6.9475,587.345,27137.572
+2009,9,20,Nürburgring,50.3356,6.9475,10,11,Hungaroring,47.5789,19.2486,947.673,28085.245
+2009,10,11,Hungaroring,47.5789,19.2486,11,12,Valencia Street Circuit,39.4589,-0.331667,1811.315,29896.561
+2009,11,12,Valencia Street Circuit,39.4589,-0.331667,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1316.476,31213.037
+2009,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,31802.822
+2009,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,42063.806
+2009,14,15,Marina Bay Street Circuit,1.2914,103.864,15,22,Suzuka Circuit,34.8431,136.541,5035.986,47099.792
+2009,15,22,Suzuka Circuit,34.8431,136.541,16,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18737.435,65837.227
+2009,16,18,Autódromo José Carlos Pace,-23.7036,-46.6997,17,24,Yas Marina Circuit,24.4672,54.6031,12149.092,77986.319
+2008,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2008,2,2,Sepang International Circuit,2.76083,101.738,3,3,Bahrain International Circuit,26.0325,50.5106,6040.7,12375.281
+2008,3,3,Bahrain International Circuit,26.0325,50.5106,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,17086.211
+2008,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5,5,Istanbul Park,40.9517,29.405,2260.551,19346.762
+2008,5,5,Istanbul Park,40.9517,29.405,6,6,Circuit de Monaco,43.7347,7.42056,1827.536,21174.299
+2008,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,27296.036
+2008,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,32954.502
+2008,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,33608.025
+2008,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,34348.212
+2008,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,35158.925
+2008,11,11,Hungaroring,47.5789,19.2486,12,12,Valencia Street Circuit,39.4589,-0.331667,1811.315,36970.24
+2008,12,12,Valencia Street Circuit,39.4589,-0.331667,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1316.476,38286.716
+2008,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,38876.502
+2008,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,49137.486
+2008,15,15,Marina Bay Street Circuit,1.2914,103.864,16,16,Fuji Speedway,35.3717,138.927,5240.86,54378.346
+2008,16,16,Fuji Speedway,35.3717,138.927,17,17,Shanghai International Circuit,31.3389,121.22,1701.966,56080.313
+2008,17,17,Shanghai International Circuit,31.3389,121.22,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18553.956,74634.269
+2007,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2007,2,2,Sepang International Circuit,2.76083,101.738,3,3,Bahrain International Circuit,26.0325,50.5106,6040.7,12375.281
+2007,3,3,Bahrain International Circuit,26.0325,50.5106,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,17086.211
+2007,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5,6,Circuit de Monaco,43.7347,7.42056,485.642,17571.853
+2007,5,6,Circuit de Monaco,43.7347,7.42056,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,23693.591
+2007,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,19,Indianapolis Motor Speedway,39.795,-86.2347,1215.792,24909.383
+2007,7,19,Indianapolis Motor Speedway,39.795,-86.2347,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,6871.656,31781.04
+2007,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,32434.562
+2007,9,9,Silverstone Circuit,52.0786,-1.01694,10,20,Nürburgring,50.3356,6.9475,587.345,33021.908
+2007,10,20,Nürburgring,50.3356,6.9475,11,11,Hungaroring,47.5789,19.2486,947.673,33969.581
+2007,11,11,Hungaroring,47.5789,19.2486,12,5,Istanbul Park,40.9517,29.405,1092.453,35062.034
+2007,12,5,Istanbul Park,40.9517,29.405,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,1704.174,36766.208
+2007,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,589.785,37355.994
+2007,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,16,Fuji Speedway,35.3717,138.927,9418.245,46774.238
+2007,15,16,Fuji Speedway,35.3717,138.927,16,17,Shanghai International Circuit,31.3389,121.22,1701.966,48476.205
+2007,16,17,Shanghai International Circuit,31.3389,121.22,17,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18553.956,67030.161
+2006,1,3,Bahrain International Circuit,26.0325,50.5106,2,2,Sepang International Circuit,2.76083,101.738,6040.7,6040.7
+2006,2,2,Sepang International Circuit,2.76083,101.738,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,6334.581,12375.281
+2006,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,16086.362,28461.643
+2006,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,20,Nürburgring,50.3356,6.9475,756.608,29218.251
+2006,5,20,Nürburgring,50.3356,6.9475,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,1039.311,30257.561
+2006,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,7,6,Circuit de Monaco,43.7347,7.42056,485.642,30743.203
+2006,7,6,Circuit de Monaco,43.7347,7.42056,8,9,Silverstone Circuit,52.0786,-1.01694,1119.235,31862.438
+2006,8,9,Silverstone Circuit,52.0786,-1.01694,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,5137.22,36999.659
+2006,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,10,19,Indianapolis Motor Speedway,39.795,-86.2347,1215.792,38215.451
+2006,10,19,Indianapolis Motor Speedway,39.795,-86.2347,11,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,6871.656,45087.107
+2006,11,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,12,10,Hockenheimring,49.3278,8.56583,485.613,45572.721
+2006,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,46383.434
+2006,13,11,Hungaroring,47.5789,19.2486,14,5,Istanbul Park,40.9517,29.405,1092.453,47475.887
+2006,14,5,Istanbul Park,40.9517,29.405,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,1704.174,49180.062
+2006,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,17,Shanghai International Circuit,31.3389,121.22,9058.021,58238.083
+2006,16,17,Shanghai International Circuit,31.3389,121.22,17,22,Suzuka Circuit,34.8431,136.541,1477.814,59715.897
+2006,17,22,Suzuka Circuit,34.8431,136.541,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18737.435,78453.332
+2005,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2005,2,2,Sepang International Circuit,2.76083,101.738,3,3,Bahrain International Circuit,26.0325,50.5106,6040.7,12375.281
+2005,3,3,Bahrain International Circuit,26.0325,50.5106,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4018.268,16393.55
+2005,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,17221.933
+2005,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,17707.575
+2005,6,6,Circuit de Monaco,43.7347,7.42056,7,20,Nürburgring,50.3356,6.9475,734.858,18442.433
+2005,7,20,Nürburgring,50.3356,6.9475,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,5721.57,24164.003
+2005,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,19,Indianapolis Motor Speedway,39.795,-86.2347,1215.792,25379.796
+2005,9,19,Indianapolis Motor Speedway,39.795,-86.2347,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,6871.656,32251.452
+2005,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,11,9,Silverstone Circuit,52.0786,-1.01694,653.522,32904.974
+2005,11,9,Silverstone Circuit,52.0786,-1.01694,12,10,Hockenheimring,49.3278,8.56583,740.187,33645.161
+2005,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,34455.875
+2005,13,11,Hungaroring,47.5789,19.2486,14,5,Istanbul Park,40.9517,29.405,1092.453,35548.328
+2005,14,5,Istanbul Park,40.9517,29.405,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,1704.174,37252.503
+2005,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,13,Circuit de Spa-Francorchamps,50.4372,5.97139,589.785,37842.288
+2005,16,13,Circuit de Spa-Francorchamps,50.4372,5.97139,17,18,Autódromo José Carlos Pace,-23.7036,-46.6997,9728.9,47571.188
+2005,17,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18,22,Suzuka Circuit,34.8431,136.541,18737.435,66308.623
+2005,18,22,Suzuka Circuit,34.8431,136.541,19,17,Shanghai International Circuit,31.3389,121.22,1477.814,67786.437
+2004,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2004,2,2,Sepang International Circuit,2.76083,101.738,3,3,Bahrain International Circuit,26.0325,50.5106,6040.7,12375.281
+2004,3,3,Bahrain International Circuit,26.0325,50.5106,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4018.268,16393.55
+2004,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,17221.933
+2004,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,17707.575
+2004,6,6,Circuit de Monaco,43.7347,7.42056,7,20,Nürburgring,50.3356,6.9475,734.858,18442.433
+2004,7,20,Nürburgring,50.3356,6.9475,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,5721.57,24164.003
+2004,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,19,Indianapolis Motor Speedway,39.795,-86.2347,1215.792,25379.796
+2004,9,19,Indianapolis Motor Speedway,39.795,-86.2347,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,6871.656,32251.452
+2004,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,11,9,Silverstone Circuit,52.0786,-1.01694,653.522,32904.974
+2004,11,9,Silverstone Circuit,52.0786,-1.01694,12,10,Hockenheimring,49.3278,8.56583,740.187,33645.161
+2004,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,34455.875
+2004,13,11,Hungaroring,47.5789,19.2486,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,35473.469
+2004,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,36063.254
+2004,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,17,Shanghai International Circuit,31.3389,121.22,9058.021,45121.276
+2004,16,17,Shanghai International Circuit,31.3389,121.22,17,22,Suzuka Circuit,34.8431,136.541,1477.814,46599.09
+2004,17,22,Suzuka Circuit,34.8431,136.541,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18737.435,65336.524
+2003,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2003,2,2,Sepang International Circuit,2.76083,101.738,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,15901.011,22235.592
+2003,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,31848.07
+2003,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,32676.453
+2003,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,70,Red Bull Ring,47.2197,14.7647,1173.274,33849.728
+2003,6,70,Red Bull Ring,47.2197,14.7647,7,6,Circuit de Monaco,43.7347,7.42056,690.952,34540.68
+2003,7,6,Circuit de Monaco,43.7347,7.42056,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,40662.418
+2003,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,20,Nürburgring,50.3356,6.9475,5721.57,46383.988
+2003,9,20,Nürburgring,50.3356,6.9475,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,475.698,46859.686
+2003,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,11,9,Silverstone Circuit,52.0786,-1.01694,653.522,47513.208
+2003,11,9,Silverstone Circuit,52.0786,-1.01694,12,10,Hockenheimring,49.3278,8.56583,740.187,48253.395
+2003,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,49064.109
+2003,13,11,Hungaroring,47.5789,19.2486,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,791.591,49855.7
+2003,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,19,Indianapolis Motor Speedway,39.795,-86.2347,7345.706,57201.406
+2003,15,19,Indianapolis Motor Speedway,39.795,-86.2347,16,22,Suzuka Circuit,34.8431,136.541,10627.728,67829.134
+2002,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2002,2,2,Sepang International Circuit,2.76083,101.738,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,15901.011,22235.592
+2002,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,31848.07
+2002,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,32676.453
+2002,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,70,Red Bull Ring,47.2197,14.7647,1173.274,33849.728
+2002,6,70,Red Bull Ring,47.2197,14.7647,7,6,Circuit de Monaco,43.7347,7.42056,690.952,34540.68
+2002,7,6,Circuit de Monaco,43.7347,7.42056,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,40662.418
+2002,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,20,Nürburgring,50.3356,6.9475,5721.57,46383.988
+2002,9,20,Nürburgring,50.3356,6.9475,10,9,Silverstone Circuit,52.0786,-1.01694,587.345,46971.333
+2002,10,9,Silverstone Circuit,52.0786,-1.01694,11,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,653.522,47624.855
+2002,11,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,12,10,Hockenheimring,49.3278,8.56583,485.613,48110.468
+2002,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,48921.182
+2002,13,11,Hungaroring,47.5789,19.2486,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,49938.776
+2002,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,50528.561
+2002,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,19,Indianapolis Motor Speedway,39.795,-86.2347,7345.706,57874.267
+2002,16,19,Indianapolis Motor Speedway,39.795,-86.2347,17,22,Suzuka Circuit,34.8431,136.541,10627.728,68501.996
+2001,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2001,2,2,Sepang International Circuit,2.76083,101.738,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,15901.011,22235.592
+2001,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,31848.07
+2001,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,32676.453
+2001,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,70,Red Bull Ring,47.2197,14.7647,1173.274,33849.728
+2001,6,70,Red Bull Ring,47.2197,14.7647,7,6,Circuit de Monaco,43.7347,7.42056,690.952,34540.68
+2001,7,6,Circuit de Monaco,43.7347,7.42056,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,40662.418
+2001,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,20,Nürburgring,50.3356,6.9475,5721.57,46383.988
+2001,9,20,Nürburgring,50.3356,6.9475,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,475.698,46859.686
+2001,10,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,11,9,Silverstone Circuit,52.0786,-1.01694,653.522,47513.208
+2001,11,9,Silverstone Circuit,52.0786,-1.01694,12,10,Hockenheimring,49.3278,8.56583,740.187,48253.395
+2001,12,10,Hockenheimring,49.3278,8.56583,13,11,Hungaroring,47.5789,19.2486,810.714,49064.109
+2001,13,11,Hungaroring,47.5789,19.2486,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,50081.703
+2001,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,50671.488
+2001,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,19,Indianapolis Motor Speedway,39.795,-86.2347,7345.706,58017.194
+2001,16,19,Indianapolis Motor Speedway,39.795,-86.2347,17,22,Suzuka Circuit,34.8431,136.541,10627.728,68644.922
+2000,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,13062.929,13062.929
+2000,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,22675.407
+2000,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,9,Silverstone Circuit,52.0786,-1.01694,1273.387,23948.794
+2000,4,9,Silverstone Circuit,52.0786,-1.01694,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,1194.499,25143.293
+2000,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,20,Nürburgring,50.3356,6.9475,1039.311,26182.604
+2000,6,20,Nürburgring,50.3356,6.9475,7,6,Circuit de Monaco,43.7347,7.42056,734.858,26917.462
+2000,7,6,Circuit de Monaco,43.7347,7.42056,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,33039.2
+2000,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,38697.665
+2000,9,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,10,70,Red Bull Ring,47.2197,14.7647,879.153,39576.819
+2000,10,70,Red Bull Ring,47.2197,14.7647,11,10,Hockenheimring,49.3278,8.56583,514.965,40091.784
+2000,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,40902.497
+2000,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,41920.091
+2000,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,42509.877
+2000,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,19,Indianapolis Motor Speedway,39.795,-86.2347,7345.706,49855.583
+2000,15,19,Indianapolis Motor Speedway,39.795,-86.2347,16,22,Suzuka Circuit,34.8431,136.541,10627.728,60483.311
+2000,16,22,Suzuka Circuit,34.8431,136.541,17,2,Sepang International Circuit,2.76083,101.738,5061.729,65545.04
+1999,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,13062.929,13062.929
+1999,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,22675.407
+1999,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,23025.388
+1999,4,6,Circuit de Monaco,43.7347,7.42056,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,23511.03
+1999,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,29402.543
+1999,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,35061.009
+1999,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,8,9,Silverstone Circuit,52.0786,-1.01694,653.522,35714.531
+1999,8,9,Silverstone Circuit,52.0786,-1.01694,9,70,Red Bull Ring,47.2197,14.7647,1254.642,36969.173
+1999,9,70,Red Bull Ring,47.2197,14.7647,10,10,Hockenheimring,49.3278,8.56583,514.965,37484.138
+1999,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,38294.851
+1999,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,39312.446
+1999,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,39902.231
+1999,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,20,Nürburgring,50.3356,6.9475,552.767,40454.998
+1999,14,20,Nürburgring,50.3356,6.9475,15,2,Sepang International Circuit,2.76083,101.738,10110.547,50565.545
+1999,15,2,Sepang International Circuit,2.76083,101.738,16,22,Suzuka Circuit,34.8431,136.541,5061.729,55627.273
+1998,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,13062.929,13062.929
+1998,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,1669.617,14732.546
+1998,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,11280.254,26012.8
+1998,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,26841.184
+1998,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,27326.826
+1998,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,33448.563
+1998,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,39107.029
+1998,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,39760.551
+1998,9,9,Silverstone Circuit,52.0786,-1.01694,10,70,Red Bull Ring,47.2197,14.7647,1254.642,41015.193
+1998,10,70,Red Bull Ring,47.2197,14.7647,11,10,Hockenheimring,49.3278,8.56583,514.965,41530.158
+1998,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,42340.872
+1998,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,43358.466
+1998,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,43948.251
+1998,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,20,Nürburgring,50.3356,6.9475,552.767,44501.018
+1998,15,20,Nürburgring,50.3356,6.9475,16,22,Suzuka Circuit,34.8431,136.541,9331.373,53832.391
+1997,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,13062.929,13062.929
+1997,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,1669.617,14732.546
+1997,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,11280.254,26012.8
+1997,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,6,Circuit de Monaco,43.7347,7.42056,349.981,26362.781
+1997,5,6,Circuit de Monaco,43.7347,7.42056,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,26848.423
+1997,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,32739.936
+1997,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,38398.402
+1997,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,39051.925
+1997,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,39792.112
+1997,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,40602.825
+1997,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,41620.419
+1997,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,42210.205
+1997,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,70,Red Bull Ring,47.2197,14.7647,456.504,42666.708
+1997,14,70,Red Bull Ring,47.2197,14.7647,15,20,Nürburgring,50.3356,6.9475,668.932,43335.641
+1997,15,20,Nürburgring,50.3356,6.9475,16,22,Suzuka Circuit,34.8431,136.541,9331.373,52667.013
+1997,16,22,Suzuka Circuit,34.8431,136.541,17,26,Circuito de Jerez,36.7083,-6.03417,11167.186,63834.2
+1996,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,13062.929,13062.929
+1996,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,1669.617,14732.546
+1996,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,4,20,Nürburgring,50.3356,6.9475,11419.158,26151.704
+1996,4,20,Nürburgring,50.3356,6.9475,5,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,756.608,26908.312
+1996,5,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,6,6,Circuit de Monaco,43.7347,7.42056,349.981,27258.293
+1996,6,6,Circuit de Monaco,43.7347,7.42056,7,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,27743.935
+1996,7,4,Circuit de Barcelona-Catalunya,41.57,2.26111,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,33635.448
+1996,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,39293.914
+1996,9,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,10,9,Silverstone Circuit,52.0786,-1.01694,653.522,39947.436
+1996,10,9,Silverstone Circuit,52.0786,-1.01694,11,10,Hockenheimring,49.3278,8.56583,740.187,40687.623
+1996,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,41498.337
+1996,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,42515.931
+1996,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,43105.716
+1996,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,44817.791
+1996,15,27,Autódromo do Estoril,38.7506,-9.39417,16,22,Suzuka Circuit,34.8431,136.541,11112.826,55930.617
+1995,1,18,Autódromo José Carlos Pace,-23.7036,-46.6997,2,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,1669.617,1669.617
+1995,2,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,11280.254,12949.871
+1995,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,13778.255
+1995,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5,6,Circuit de Monaco,43.7347,7.42056,485.642,14263.897
+1995,5,6,Circuit de Monaco,43.7347,7.42056,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,20385.634
+1995,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,26044.1
+1995,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,8,9,Silverstone Circuit,52.0786,-1.01694,653.522,26697.622
+1995,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,27437.81
+1995,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,28248.523
+1995,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,29266.117
+1995,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,29855.903
+1995,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,31567.977
+1995,13,27,Autódromo do Estoril,38.7506,-9.39417,14,20,Nürburgring,50.3356,6.9475,1818.997,33386.974
+1995,14,20,Nürburgring,50.3356,6.9475,15,28,Okayama International Circuit,34.915,134.221,9217.953,42604.927
+1995,15,28,Okayama International Circuit,34.915,134.221,16,22,Suzuka Circuit,34.8431,136.541,211.777,42816.704
+1995,16,22,Suzuka Circuit,34.8431,136.541,17,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,50577.817
+1994,1,18,Autódromo José Carlos Pace,-23.7036,-46.6997,2,28,Okayama International Circuit,34.915,134.221,18765.289,18765.289
+1994,2,28,Okayama International Circuit,34.915,134.221,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9465.795,28231.085
+1994,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,28581.066
+1994,4,6,Circuit de Monaco,43.7347,7.42056,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,29066.708
+1994,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,34958.221
+1994,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,40616.686
+1994,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,8,9,Silverstone Circuit,52.0786,-1.01694,653.522,41270.209
+1994,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,42010.396
+1994,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,42821.109
+1994,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,43838.704
+1994,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,44428.489
+1994,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,46140.563
+1994,13,27,Autódromo do Estoril,38.7506,-9.39417,14,26,Circuito de Jerez,36.7083,-6.03417,372.631,46513.195
+1994,14,26,Circuito de Jerez,36.7083,-6.03417,15,22,Suzuka Circuit,34.8431,136.541,11167.186,57680.381
+1994,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,65441.494
+1993,1,30,Kyalami,-25.9894,28.0767,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7439.34,7439.34
+1993,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,31,Donington Park,52.8306,-1.37528,9570.073,17009.413
+1993,3,31,Donington Park,52.8306,-1.37528,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,1344.361,18353.773
+1993,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,828.383,19182.157
+1993,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,19667.799
+1993,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,25789.536
+1993,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,31448.002
+1993,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,32101.524
+1993,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,32841.711
+1993,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,33652.425
+1993,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,34670.019
+1993,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,35259.805
+1993,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,36971.879
+1993,14,27,Autódromo do Estoril,38.7506,-9.39417,15,22,Suzuka Circuit,34.8431,136.541,11112.826,48084.705
+1993,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,55845.818
+1992,1,30,Kyalami,-25.9894,28.0767,2,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,14581.185,14581.185
+1992,2,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,22012.167
+1992,3,18,Autódromo José Carlos Pace,-23.7036,-46.6997,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,8834.866,30847.032
+1992,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,828.383,31675.416
+1992,5,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,6,6,Circuit de Monaco,43.7347,7.42056,349.981,32025.397
+1992,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,38147.135
+1992,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,5658.466,43805.6
+1992,8,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9,9,Silverstone Circuit,52.0786,-1.01694,653.522,44459.123
+1992,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,45199.31
+1992,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,46010.023
+1992,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,47027.617
+1992,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,47617.403
+1992,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,49329.477
+1992,14,27,Autódromo do Estoril,38.7506,-9.39417,15,22,Suzuka Circuit,34.8431,136.541,11112.826,60442.303
+1992,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,68203.416
+1991,1,33,Phoenix street circuit,33.4479,-112.075,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,9390.134,9390.134
+1991,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,19002.612
+1991,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,19352.593
+1991,4,6,Circuit de Monaco,43.7347,7.42056,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,25474.331
+1991,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3731.543,29205.874
+1991,6,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,9333.773,38539.647
+1991,7,8,Circuit de Nevers Magny-Cours,46.8642,3.16361,8,9,Silverstone Circuit,52.0786,-1.01694,653.522,39193.169
+1991,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,39933.356
+1991,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,40744.07
+1991,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,41761.664
+1991,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,42351.449
+1991,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,44063.524
+1991,13,27,Autódromo do Estoril,38.7506,-9.39417,14,4,Circuit de Barcelona-Catalunya,41.57,2.26111,1037.92,45101.444
+1991,14,4,Circuit de Barcelona-Catalunya,41.57,2.26111,15,22,Suzuka Circuit,34.8431,136.541,10323.607,55425.051
+1991,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,63186.164
+1990,1,33,Phoenix street circuit,33.4479,-112.075,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,9390.134,9390.134
+1990,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9612.478,19002.612
+1990,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,19352.593
+1990,4,6,Circuit de Monaco,43.7347,7.42056,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,25474.331
+1990,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3731.543,29205.874
+1990,6,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,7,34,Circuit Paul Ricard,43.2506,5.79167,9681.236,38887.11
+1990,7,34,Circuit Paul Ricard,43.2506,5.79167,8,9,Silverstone Circuit,52.0786,-1.01694,1105.0,39992.11
+1990,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,40732.297
+1990,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,41543.01
+1990,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,42560.605
+1990,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,43150.39
+1990,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,44862.464
+1990,13,27,Autódromo do Estoril,38.7506,-9.39417,14,26,Circuito de Jerez,36.7083,-6.03417,372.631,45235.096
+1990,14,26,Circuito de Jerez,36.7083,-6.03417,15,22,Suzuka Circuit,34.8431,136.541,11167.186,56402.282
+1990,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,64163.395
+2010,1,3,Bahrain International Circuit,26.0325,50.5106,2,1,Albert Park Grand Prix Circuit,-37.8497,144.968,12112.634,12112.634
+2010,2,1,Albert Park Grand Prix Circuit,-37.8497,144.968,3,2,Sepang International Circuit,2.76083,101.738,6334.581,18447.216
+2010,3,2,Sepang International Circuit,2.76083,101.738,4,17,Shanghai International Circuit,31.3389,121.22,3777.389,22224.605
+2010,4,17,Shanghai International Circuit,31.3389,121.22,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,9779.977,32004.582
+2010,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,32490.224
+2010,6,6,Circuit de Monaco,43.7347,7.42056,7,5,Istanbul Park,40.9517,29.405,1827.536,34317.76
+2010,7,5,Istanbul Park,40.9517,29.405,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,7735.941,42053.702
+2010,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,12,Valencia Street Circuit,39.4589,-0.331667,5829.555,47883.257
+2010,9,12,Valencia Street Circuit,39.4589,-0.331667,10,9,Silverstone Circuit,52.0786,-1.01694,1404.238,49287.495
+2010,10,9,Silverstone Circuit,52.0786,-1.01694,11,10,Hockenheimring,49.3278,8.56583,740.187,50027.682
+2010,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,50838.396
+2010,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,51855.99
+2010,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,52445.775
+2010,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,62706.759
+2010,15,15,Marina Bay Street Circuit,1.2914,103.864,16,22,Suzuka Circuit,34.8431,136.541,5035.986,67742.745
+2010,16,22,Suzuka Circuit,34.8431,136.541,17,35,Korean International Circuit,34.7333,126.417,924.22,68666.965
+2010,17,35,Korean International Circuit,34.7333,126.417,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,18619.55,87286.515
+2010,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,19,24,Yas Marina Circuit,24.4672,54.6031,12149.092,99435.607
+1989,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9345.233,9345.233
+1989,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,3,6,Circuit de Monaco,43.7347,7.42056,349.981,9695.214
+1989,3,6,Circuit de Monaco,43.7347,7.42056,4,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,9778.21,19473.424
+1989,4,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,5,33,Phoenix street circuit,33.4479,-112.075,2023.408,21496.832
+1989,5,33,Phoenix street circuit,33.4479,-112.075,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,3528.787,25025.619
+1989,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,34,Circuit Paul Ricard,43.2506,5.79167,6039.222,31064.841
+1989,7,34,Circuit Paul Ricard,43.2506,5.79167,8,9,Silverstone Circuit,52.0786,-1.01694,1105.0,32169.841
+1989,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,32910.028
+1989,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,33720.742
+1989,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,34738.336
+1989,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,35328.121
+1989,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,37040.196
+1989,13,27,Autódromo do Estoril,38.7506,-9.39417,14,26,Circuito de Jerez,36.7083,-6.03417,372.631,37412.827
+1989,14,26,Circuito de Jerez,36.7083,-6.03417,15,22,Suzuka Circuit,34.8431,136.541,11167.186,48580.013
+1989,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,56341.126
+1988,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9345.233,9345.233
+1988,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,3,6,Circuit de Monaco,43.7347,7.42056,349.981,9695.214
+1988,3,6,Circuit de Monaco,43.7347,7.42056,4,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,9778.21,19473.424
+1988,4,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,3731.543,23204.967
+1988,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6,37,Detroit Street Circuit,42.3298,-83.0401,839.19,24044.157
+1988,6,37,Detroit Street Circuit,42.3298,-83.0401,7,34,Circuit Paul Ricard,43.2506,5.79167,6873.064,30917.221
+1988,7,34,Circuit Paul Ricard,43.2506,5.79167,8,9,Silverstone Circuit,52.0786,-1.01694,1105.0,32022.221
+1988,8,9,Silverstone Circuit,52.0786,-1.01694,9,10,Hockenheimring,49.3278,8.56583,740.187,32762.408
+1988,9,10,Hockenheimring,49.3278,8.56583,10,11,Hungaroring,47.5789,19.2486,810.714,33573.121
+1988,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,34590.716
+1988,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,35180.501
+1988,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,36892.575
+1988,13,27,Autódromo do Estoril,38.7506,-9.39417,14,26,Circuito de Jerez,36.7083,-6.03417,372.631,37265.207
+1988,14,26,Circuito de Jerez,36.7083,-6.03417,15,22,Suzuka Circuit,34.8431,136.541,11167.186,48432.393
+1988,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,56193.506
+1987,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9345.233,9345.233
+1987,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,803.266,10148.499
+1987,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,6,Circuit de Monaco,43.7347,7.42056,753.277,10901.776
+1987,4,6,Circuit de Monaco,43.7347,7.42056,5,37,Detroit Street Circuit,42.3298,-83.0401,6953.357,17855.133
+1987,5,37,Detroit Street Circuit,42.3298,-83.0401,6,34,Circuit Paul Ricard,43.2506,5.79167,6873.064,24728.197
+1987,6,34,Circuit Paul Ricard,43.2506,5.79167,7,9,Silverstone Circuit,52.0786,-1.01694,1105.0,25833.197
+1987,7,9,Silverstone Circuit,52.0786,-1.01694,8,10,Hockenheimring,49.3278,8.56583,740.187,26573.384
+1987,8,10,Hockenheimring,49.3278,8.56583,9,11,Hungaroring,47.5789,19.2486,810.714,27384.098
+1987,9,11,Hungaroring,47.5789,19.2486,10,70,Red Bull Ring,47.2197,14.7647,339.793,27723.891
+1987,10,70,Red Bull Ring,47.2197,14.7647,11,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,28180.394
+1987,11,14,Autodromo Nazionale di Monza,45.6156,9.28111,12,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,29892.469
+1987,12,27,Autódromo do Estoril,38.7506,-9.39417,13,26,Circuito de Jerez,36.7083,-6.03417,372.631,30265.1
+1987,13,26,Circuito de Jerez,36.7083,-6.03417,14,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,8994.967,39260.068
+1987,14,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,15,22,Suzuka Circuit,34.8431,136.541,11598.803,50858.87
+1987,15,22,Suzuka Circuit,34.8431,136.541,16,29,Adelaide Street Circuit,-34.9272,138.617,7761.113,58619.983
+1986,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,26,Circuito de Jerez,36.7083,-6.03417,7706.767,7706.767
+1986,2,26,Circuito de Jerez,36.7083,-6.03417,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,1718.583,9425.35
+1986,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,9775.331
+1986,4,6,Circuit de Monaco,43.7347,7.42056,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,10528.608
+1986,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,5655.007,16183.615
+1986,6,7,Circuit Gilles Villeneuve,45.5,-73.5228,7,37,Detroit Street Circuit,42.3298,-83.0401,839.19,17022.805
+1986,7,37,Detroit Street Circuit,42.3298,-83.0401,8,34,Circuit Paul Ricard,43.2506,5.79167,6873.064,23895.869
+1986,8,34,Circuit Paul Ricard,43.2506,5.79167,9,38,Brands Hatch,51.3569,0.263056,992.413,24888.282
+1986,9,38,Brands Hatch,51.3569,0.263056,10,10,Hockenheimring,49.3278,8.56583,630.486,25518.768
+1986,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,26329.481
+1986,11,11,Hungaroring,47.5789,19.2486,12,70,Red Bull Ring,47.2197,14.7647,339.793,26669.274
+1986,12,70,Red Bull Ring,47.2197,14.7647,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,27125.778
+1986,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,27,Autódromo do Estoril,38.7506,-9.39417,1712.075,28837.852
+1986,14,27,Autódromo do Estoril,38.7506,-9.39417,15,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,8647.557,37485.41
+1986,15,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,16,29,Adelaide Street Circuit,-34.9272,138.617,14133.993,51619.402
+1985,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,27,Autódromo do Estoril,38.7506,-9.39417,7723.164,7723.164
+1985,2,27,Autódromo do Estoril,38.7506,-9.39417,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,1857.312,9580.476
+1985,3,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4,6,Circuit de Monaco,43.7347,7.42056,349.981,9930.457
+1985,4,6,Circuit de Monaco,43.7347,7.42056,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,16052.195
+1985,5,7,Circuit Gilles Villeneuve,45.5,-73.5228,6,37,Detroit Street Circuit,42.3298,-83.0401,839.19,16891.385
+1985,6,37,Detroit Street Circuit,42.3298,-83.0401,7,34,Circuit Paul Ricard,43.2506,5.79167,6873.064,23764.449
+1985,7,34,Circuit Paul Ricard,43.2506,5.79167,8,9,Silverstone Circuit,52.0786,-1.01694,1105.0,24869.449
+1985,8,9,Silverstone Circuit,52.0786,-1.01694,9,20,Nürburgring,50.3356,6.9475,587.345,25456.794
+1985,9,20,Nürburgring,50.3356,6.9475,10,70,Red Bull Ring,47.2197,14.7647,668.932,26125.726
+1985,10,70,Red Bull Ring,47.2197,14.7647,11,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,27056.303
+1985,11,39,Circuit Park Zandvoort,52.3888,4.54092,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,27884.593
+1985,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,589.785,28474.378
+1985,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,38,Brands Hatch,51.3569,0.263056,413.075,28887.454
+1985,14,38,Brands Hatch,51.3569,0.263056,15,30,Kyalami,-25.9894,28.0767,9021.156,37908.61
+1985,15,30,Kyalami,-25.9894,28.0767,16,29,Adelaide Street Circuit,-34.9272,138.617,10056.551,47965.161
+1984,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,30,Kyalami,-25.9894,28.0767,7147.239,7147.239
+1984,2,30,Kyalami,-25.9894,28.0767,3,40,Zolder,50.9894,5.25694,8847.849,15995.089
+1984,3,40,Zolder,50.9894,5.25694,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,882.434,16877.523
+1984,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,41,Dijon-Prenois,47.3625,4.89913,625.308,17502.831
+1984,5,41,Dijon-Prenois,47.3625,4.89913,6,6,Circuit de Monaco,43.7347,7.42056,448.577,17951.408
+1984,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,24073.146
+1984,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,37,Detroit Street Circuit,42.3298,-83.0401,839.19,24912.336
+1984,8,37,Detroit Street Circuit,42.3298,-83.0401,9,42,Fair Park,32.7774,-96.7587,1605.84,26518.176
+1984,9,42,Fair Park,32.7774,-96.7587,10,38,Brands Hatch,51.3569,0.263056,7670.477,34188.653
+1984,10,38,Brands Hatch,51.3569,0.263056,11,10,Hockenheimring,49.3278,8.56583,630.486,34819.139
+1984,11,10,Hockenheimring,49.3278,8.56583,12,70,Red Bull Ring,47.2197,14.7647,514.965,35334.104
+1984,12,70,Red Bull Ring,47.2197,14.7647,13,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,36264.68
+1984,13,39,Circuit Park Zandvoort,52.3888,4.54092,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,37092.971
+1984,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,20,Nürburgring,50.3356,6.9475,552.767,37645.738
+1984,15,20,Nürburgring,50.3356,6.9475,16,27,Autódromo do Estoril,38.7506,-9.39417,1818.997,39464.735
+1983,1,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,2,43,Long Beach,33.7651,-118.189,10110.746,10110.746
+1983,2,43,Long Beach,33.7651,-118.189,3,34,Circuit Paul Ricard,43.2506,5.79167,9737.368,19848.113
+1983,3,34,Circuit Paul Ricard,43.2506,5.79167,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,490.711,20338.824
+1983,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,6,Circuit de Monaco,43.7347,7.42056,349.981,20688.805
+1983,5,6,Circuit de Monaco,43.7347,7.42056,6,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,21442.082
+1983,6,13,Circuit de Spa-Francorchamps,50.4372,5.97139,7,37,Detroit Street Circuit,42.3298,-83.0401,6469.248,27911.331
+1983,7,37,Detroit Street Circuit,42.3298,-83.0401,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,839.19,28750.521
+1983,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,9,Silverstone Circuit,52.0786,-1.01694,5137.22,33887.741
+1983,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,34627.928
+1983,10,10,Hockenheimring,49.3278,8.56583,11,70,Red Bull Ring,47.2197,14.7647,514.965,35142.893
+1983,11,70,Red Bull Ring,47.2197,14.7647,12,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,36073.469
+1983,12,39,Circuit Park Zandvoort,52.3888,4.54092,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,36901.76
+1983,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,38,Brands Hatch,51.3569,0.263056,920.325,37822.085
+1983,14,38,Brands Hatch,51.3569,0.263056,15,30,Kyalami,-25.9894,28.0767,9021.156,46843.241
+1982,1,30,Kyalami,-25.9894,28.0767,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,7147.239,7147.239
+1982,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,3,43,Long Beach,33.7651,-118.189,10110.746,17257.985
+1982,3,43,Long Beach,33.7651,-118.189,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,9962.501,27220.486
+1982,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,40,Zolder,50.9894,5.25694,882.434,28102.92
+1982,5,40,Zolder,50.9894,5.25694,6,6,Circuit de Monaco,43.7347,7.42056,822.884,28925.804
+1982,6,6,Circuit de Monaco,43.7347,7.42056,7,37,Detroit Street Circuit,42.3298,-83.0401,6953.357,35879.161
+1982,7,37,Detroit Street Circuit,42.3298,-83.0401,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,839.19,36718.351
+1982,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,39,Circuit Park Zandvoort,52.3888,4.54092,5470.232,42188.583
+1982,9,39,Circuit Park Zandvoort,52.3888,4.54092,10,38,Brands Hatch,51.3569,0.263056,315.245,42503.829
+1982,10,38,Brands Hatch,51.3569,0.263056,11,34,Circuit Paul Ricard,43.2506,5.79167,992.413,43496.242
+1982,11,34,Circuit Paul Ricard,43.2506,5.79167,12,10,Hockenheimring,49.3278,8.56583,708.445,44204.687
+1982,12,10,Hockenheimring,49.3278,8.56583,13,70,Red Bull Ring,47.2197,14.7647,514.965,44719.652
+1982,13,70,Red Bull Ring,47.2197,14.7647,14,41,Dijon-Prenois,47.3625,4.89913,743.74,45463.392
+1982,14,41,Dijon-Prenois,47.3625,4.89913,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,387.565,45850.957
+1982,15,14,Autodromo Nazionale di Monza,45.6156,9.28111,16,44,Las Vegas Street Circuit,36.1162,-115.174,9359.407,55210.364
+1981,1,43,Long Beach,33.7651,-118.189,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,10110.746,10110.746
+1981,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,1958.04,12068.785
+1981,3,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,11280.254,23349.039
+1981,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,40,Zolder,50.9894,5.25694,882.434,24231.473
+1981,5,40,Zolder,50.9894,5.25694,6,6,Circuit de Monaco,43.7347,7.42056,822.884,25054.357
+1981,6,6,Circuit de Monaco,43.7347,7.42056,7,45,Jarama,40.6171,-3.58558,970.007,26024.364
+1981,7,45,Jarama,40.6171,-3.58558,8,41,Dijon-Prenois,47.3625,4.89913,1010.397,27034.761
+1981,8,41,Dijon-Prenois,47.3625,4.89913,9,9,Silverstone Circuit,52.0786,-1.01694,674.732,27709.492
+1981,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,28449.68
+1981,10,10,Hockenheimring,49.3278,8.56583,11,70,Red Bull Ring,47.2197,14.7647,514.965,28964.644
+1981,11,70,Red Bull Ring,47.2197,14.7647,12,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,29895.221
+1981,12,39,Circuit Park Zandvoort,52.3888,4.54092,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,30723.511
+1981,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,7,Circuit Gilles Villeneuve,45.5,-73.5228,6134.605,36858.116
+1981,14,7,Circuit Gilles Villeneuve,45.5,-73.5228,15,44,Las Vegas Street Circuit,36.1162,-115.174,3612.757,40470.873
+1980,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1980,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1980,3,30,Kyalami,-25.9894,28.0767,4,43,Long Beach,33.7651,-118.189,16666.013,25774.97
+1980,4,43,Long Beach,33.7651,-118.189,5,40,Zolder,50.9894,5.25694,9090.443,34865.414
+1980,5,40,Zolder,50.9894,5.25694,6,6,Circuit de Monaco,43.7347,7.42056,822.884,35688.298
+1980,6,6,Circuit de Monaco,43.7347,7.42056,7,34,Circuit Paul Ricard,43.2506,5.79167,141.994,35830.292
+1980,7,34,Circuit Paul Ricard,43.2506,5.79167,8,38,Brands Hatch,51.3569,0.263056,992.413,36822.705
+1980,8,38,Brands Hatch,51.3569,0.263056,9,10,Hockenheimring,49.3278,8.56583,630.486,37453.191
+1980,9,10,Hockenheimring,49.3278,8.56583,10,70,Red Bull Ring,47.2197,14.7647,514.965,37968.156
+1980,10,70,Red Bull Ring,47.2197,14.7647,11,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,38898.732
+1980,11,39,Circuit Park Zandvoort,52.3888,4.54092,12,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,1038.66,39937.392
+1980,12,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,13,7,Circuit Gilles Villeneuve,45.5,-73.5228,6372.268,46309.66
+1980,13,7,Circuit Gilles Villeneuve,45.5,-73.5228,14,46,Watkins Glen,42.3369,-76.9272,444.951,46754.611
+1979,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1979,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1979,3,30,Kyalami,-25.9894,28.0767,4,43,Long Beach,33.7651,-118.189,16666.013,25774.97
+1979,4,43,Long Beach,33.7651,-118.189,5,45,Jarama,40.6171,-3.58558,9375.178,35150.149
+1979,5,45,Jarama,40.6171,-3.58558,6,40,Zolder,50.9894,5.25694,1339.478,36489.627
+1979,6,40,Zolder,50.9894,5.25694,7,6,Circuit de Monaco,43.7347,7.42056,822.884,37312.511
+1979,7,6,Circuit de Monaco,43.7347,7.42056,8,41,Dijon-Prenois,47.3625,4.89913,448.577,37761.088
+1979,8,41,Dijon-Prenois,47.3625,4.89913,9,9,Silverstone Circuit,52.0786,-1.01694,674.732,38435.82
+1979,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,39176.007
+1979,10,10,Hockenheimring,49.3278,8.56583,11,70,Red Bull Ring,47.2197,14.7647,514.965,39690.972
+1979,11,70,Red Bull Ring,47.2197,14.7647,12,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,40621.548
+1979,12,39,Circuit Park Zandvoort,52.3888,4.54092,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,41449.838
+1979,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,7,Circuit Gilles Villeneuve,45.5,-73.5228,6134.605,47584.443
+1979,14,7,Circuit Gilles Villeneuve,45.5,-73.5228,15,46,Watkins Glen,42.3369,-76.9272,444.951,48029.394
+1978,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,1958.04,1958.04
+1978,2,36,Autódromo Internacional Nelson Piquet,-22.9756,-43.395,3,30,Kyalami,-25.9894,28.0767,7147.239,9105.279
+1978,3,30,Kyalami,-25.9894,28.0767,4,43,Long Beach,33.7651,-118.189,16666.013,25771.292
+1978,4,43,Long Beach,33.7651,-118.189,5,6,Circuit de Monaco,43.7347,7.42056,9787.827,35559.119
+1978,5,6,Circuit de Monaco,43.7347,7.42056,6,40,Zolder,50.9894,5.25694,822.884,36382.003
+1978,6,40,Zolder,50.9894,5.25694,7,45,Jarama,40.6171,-3.58558,1339.478,37721.481
+1978,7,45,Jarama,40.6171,-3.58558,8,47,Scandinavian Raceway,57.2653,13.6042,2222.896,39944.377
+1978,8,47,Scandinavian Raceway,57.2653,13.6042,9,34,Circuit Paul Ricard,43.2506,5.79167,1651.8,41596.177
+1978,9,34,Circuit Paul Ricard,43.2506,5.79167,10,38,Brands Hatch,51.3569,0.263056,992.413,42588.59
+1978,10,38,Brands Hatch,51.3569,0.263056,11,10,Hockenheimring,49.3278,8.56583,630.486,43219.075
+1978,11,10,Hockenheimring,49.3278,8.56583,12,70,Red Bull Ring,47.2197,14.7647,514.965,43734.04
+1978,12,70,Red Bull Ring,47.2197,14.7647,13,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,44664.617
+1978,13,39,Circuit Park Zandvoort,52.3888,4.54092,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,45492.907
+1978,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,46,Watkins Glen,42.3369,-76.9272,6557.006,52049.913
+1978,15,46,Watkins Glen,42.3369,-76.9272,16,7,Circuit Gilles Villeneuve,45.5,-73.5228,444.951,52494.864
+1977,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1977,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1977,3,30,Kyalami,-25.9894,28.0767,4,43,Long Beach,33.7651,-118.189,16666.013,25774.97
+1977,4,43,Long Beach,33.7651,-118.189,5,45,Jarama,40.6171,-3.58558,9375.178,35150.149
+1977,5,45,Jarama,40.6171,-3.58558,6,6,Circuit de Monaco,43.7347,7.42056,970.007,36120.155
+1977,6,6,Circuit de Monaco,43.7347,7.42056,7,40,Zolder,50.9894,5.25694,822.884,36943.039
+1977,7,40,Zolder,50.9894,5.25694,8,47,Scandinavian Raceway,57.2653,13.6042,883.448,37826.487
+1977,8,47,Scandinavian Raceway,57.2653,13.6042,9,41,Dijon-Prenois,47.3625,4.89913,1247.797,39074.284
+1977,9,41,Dijon-Prenois,47.3625,4.89913,10,9,Silverstone Circuit,52.0786,-1.01694,674.732,39749.016
+1977,10,9,Silverstone Circuit,52.0786,-1.01694,11,10,Hockenheimring,49.3278,8.56583,740.187,40489.203
+1977,11,10,Hockenheimring,49.3278,8.56583,12,70,Red Bull Ring,47.2197,14.7647,514.965,41004.168
+1977,12,70,Red Bull Ring,47.2197,14.7647,13,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,41934.745
+1977,13,39,Circuit Park Zandvoort,52.3888,4.54092,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,42763.035
+1977,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,46,Watkins Glen,42.3369,-76.9272,6557.006,49320.041
+1977,15,46,Watkins Glen,42.3369,-76.9272,16,48,Mosport International Raceway,44.0481,-78.6756,237.253,49557.294
+1977,16,48,Mosport International Raceway,44.0481,-78.6756,17,16,Fuji Speedway,35.3717,138.927,10401.918,59959.212
+1976,1,18,Autódromo José Carlos Pace,-23.7036,-46.6997,2,30,Kyalami,-25.9894,28.0767,7439.34,7439.34
+1976,2,30,Kyalami,-25.9894,28.0767,3,43,Long Beach,33.7651,-118.189,16666.013,24105.353
+1976,3,43,Long Beach,33.7651,-118.189,4,45,Jarama,40.6171,-3.58558,9375.178,33480.531
+1976,4,45,Jarama,40.6171,-3.58558,5,40,Zolder,50.9894,5.25694,1339.478,34820.01
+1976,5,40,Zolder,50.9894,5.25694,6,6,Circuit de Monaco,43.7347,7.42056,822.884,35642.893
+1976,6,6,Circuit de Monaco,43.7347,7.42056,7,47,Scandinavian Raceway,57.2653,13.6042,1565.239,37208.132
+1976,7,47,Scandinavian Raceway,57.2653,13.6042,8,34,Circuit Paul Ricard,43.2506,5.79167,1651.8,38859.932
+1976,8,34,Circuit Paul Ricard,43.2506,5.79167,9,38,Brands Hatch,51.3569,0.263056,992.413,39852.345
+1976,9,38,Brands Hatch,51.3569,0.263056,10,20,Nürburgring,50.3356,6.9475,482.664,40335.009
+1976,10,20,Nürburgring,50.3356,6.9475,11,70,Red Bull Ring,47.2197,14.7647,668.932,41003.941
+1976,11,70,Red Bull Ring,47.2197,14.7647,12,39,Circuit Park Zandvoort,52.3888,4.54092,930.577,41934.518
+1976,12,39,Circuit Park Zandvoort,52.3888,4.54092,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,42762.808
+1976,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,48,Mosport International Raceway,44.0481,-78.6756,6562.254,49325.062
+1976,14,48,Mosport International Raceway,44.0481,-78.6756,15,46,Watkins Glen,42.3369,-76.9272,237.253,49562.315
+1976,15,46,Watkins Glen,42.3369,-76.9272,16,16,Fuji Speedway,35.3717,138.927,10637.199,60199.513
+1975,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1975,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1975,3,30,Kyalami,-25.9894,28.0767,4,49,Montjuïc,41.3664,2.15167,7951.69,17060.647
+1975,4,49,Montjuïc,41.3664,2.15167,5,6,Circuit de Monaco,43.7347,7.42056,505.447,17566.095
+1975,5,6,Circuit de Monaco,43.7347,7.42056,6,40,Zolder,50.9894,5.25694,822.884,18388.978
+1975,6,40,Zolder,50.9894,5.25694,7,47,Scandinavian Raceway,57.2653,13.6042,883.448,19272.426
+1975,7,47,Scandinavian Raceway,57.2653,13.6042,8,39,Circuit Park Zandvoort,52.3888,4.54092,793.188,20065.614
+1975,8,39,Circuit Park Zandvoort,52.3888,4.54092,9,34,Circuit Paul Ricard,43.2506,5.79167,1020.363,21085.977
+1975,9,34,Circuit Paul Ricard,43.2506,5.79167,10,9,Silverstone Circuit,52.0786,-1.01694,1105.0,22190.976
+1975,10,9,Silverstone Circuit,52.0786,-1.01694,11,20,Nürburgring,50.3356,6.9475,587.345,22778.322
+1975,11,20,Nürburgring,50.3356,6.9475,12,70,Red Bull Ring,47.2197,14.7647,668.932,23447.254
+1975,12,70,Red Bull Ring,47.2197,14.7647,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,23903.758
+1975,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,46,Watkins Glen,42.3369,-76.9272,6557.006,30460.764
+1974,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1974,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1974,3,30,Kyalami,-25.9894,28.0767,4,45,Jarama,40.6171,-3.58558,8096.484,17205.441
+1974,4,45,Jarama,40.6171,-3.58558,5,50,Nivelles-Baulers,50.6211,4.32694,1269.576,18475.017
+1974,5,50,Nivelles-Baulers,50.6211,4.32694,6,6,Circuit de Monaco,43.7347,7.42056,800.449,19275.466
+1974,6,6,Circuit de Monaco,43.7347,7.42056,7,47,Scandinavian Raceway,57.2653,13.6042,1565.239,20840.704
+1974,7,47,Scandinavian Raceway,57.2653,13.6042,8,39,Circuit Park Zandvoort,52.3888,4.54092,793.188,21633.892
+1974,8,39,Circuit Park Zandvoort,52.3888,4.54092,9,41,Dijon-Prenois,47.3625,4.89913,559.487,22193.379
+1974,9,41,Dijon-Prenois,47.3625,4.89913,10,38,Brands Hatch,51.3569,0.263056,556.543,22749.922
+1974,10,38,Brands Hatch,51.3569,0.263056,11,20,Nürburgring,50.3356,6.9475,482.664,23232.586
+1974,11,20,Nürburgring,50.3356,6.9475,12,70,Red Bull Ring,47.2197,14.7647,668.932,23901.518
+1974,12,70,Red Bull Ring,47.2197,14.7647,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,24358.022
+1974,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,48,Mosport International Raceway,44.0481,-78.6756,6562.254,30920.275
+1974,14,48,Mosport International Raceway,44.0481,-78.6756,15,46,Watkins Glen,42.3369,-76.9272,237.253,31157.528
+1973,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,1669.617,1669.617
+1973,2,18,Autódromo José Carlos Pace,-23.7036,-46.6997,3,30,Kyalami,-25.9894,28.0767,7439.34,9108.957
+1973,3,30,Kyalami,-25.9894,28.0767,4,49,Montjuïc,41.3664,2.15167,7951.69,17060.647
+1973,4,49,Montjuïc,41.3664,2.15167,5,40,Zolder,50.9894,5.25694,1096.151,18156.798
+1973,5,40,Zolder,50.9894,5.25694,6,6,Circuit de Monaco,43.7347,7.42056,822.884,18979.682
+1973,6,6,Circuit de Monaco,43.7347,7.42056,7,47,Scandinavian Raceway,57.2653,13.6042,1565.239,20544.921
+1973,7,47,Scandinavian Raceway,57.2653,13.6042,8,34,Circuit Paul Ricard,43.2506,5.79167,1651.8,22196.721
+1973,8,34,Circuit Paul Ricard,43.2506,5.79167,9,9,Silverstone Circuit,52.0786,-1.01694,1105.0,23301.72
+1973,9,9,Silverstone Circuit,52.0786,-1.01694,10,39,Circuit Park Zandvoort,52.3888,4.54092,379.967,23681.687
+1973,10,39,Circuit Park Zandvoort,52.3888,4.54092,11,20,Nürburgring,50.3356,6.9475,282.882,23964.569
+1973,11,20,Nürburgring,50.3356,6.9475,12,70,Red Bull Ring,47.2197,14.7647,668.932,24633.501
+1973,12,70,Red Bull Ring,47.2197,14.7647,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,25090.005
+1973,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,48,Mosport International Raceway,44.0481,-78.6756,6562.254,31652.259
+1973,14,48,Mosport International Raceway,44.0481,-78.6756,15,46,Watkins Glen,42.3369,-76.9272,237.253,31889.512
+1972,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,30,Kyalami,-25.9894,28.0767,8105.857,8105.857
+1972,2,30,Kyalami,-25.9894,28.0767,3,45,Jarama,40.6171,-3.58558,8096.484,16202.341
+1972,3,45,Jarama,40.6171,-3.58558,4,6,Circuit de Monaco,43.7347,7.42056,970.007,17172.348
+1972,4,6,Circuit de Monaco,43.7347,7.42056,5,50,Nivelles-Baulers,50.6211,4.32694,800.449,17972.796
+1972,5,50,Nivelles-Baulers,50.6211,4.32694,6,51,Charade Circuit,45.7472,3.03889,550.279,18523.075
+1972,6,51,Charade Circuit,45.7472,3.03889,7,38,Brands Hatch,51.3569,0.263056,656.253,19179.328
+1972,7,38,Brands Hatch,51.3569,0.263056,8,20,Nürburgring,50.3356,6.9475,482.664,19661.991
+1972,8,20,Nürburgring,50.3356,6.9475,9,70,Red Bull Ring,47.2197,14.7647,668.932,20330.923
+1972,9,70,Red Bull Ring,47.2197,14.7647,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,20787.427
+1972,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,11,48,Mosport International Raceway,44.0481,-78.6756,6562.254,27349.681
+1972,11,48,Mosport International Raceway,44.0481,-78.6756,12,46,Watkins Glen,42.3369,-76.9272,237.253,27586.934
+1971,1,30,Kyalami,-25.9894,28.0767,2,49,Montjuïc,41.3664,2.15167,7951.69,7951.69
+1971,2,49,Montjuïc,41.3664,2.15167,3,6,Circuit de Monaco,43.7347,7.42056,505.447,8457.137
+1971,3,6,Circuit de Monaco,43.7347,7.42056,4,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,9442.727
+1971,4,39,Circuit Park Zandvoort,52.3888,4.54092,5,34,Circuit Paul Ricard,43.2506,5.79167,1020.363,10463.09
+1971,5,34,Circuit Paul Ricard,43.2506,5.79167,6,9,Silverstone Circuit,52.0786,-1.01694,1105.0,11568.09
+1971,6,9,Silverstone Circuit,52.0786,-1.01694,7,20,Nürburgring,50.3356,6.9475,587.345,12155.435
+1971,7,20,Nürburgring,50.3356,6.9475,8,70,Red Bull Ring,47.2197,14.7647,668.932,12824.367
+1971,8,70,Red Bull Ring,47.2197,14.7647,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,13280.871
+1971,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,10,48,Mosport International Raceway,44.0481,-78.6756,6562.254,19843.125
+1971,10,48,Mosport International Raceway,44.0481,-78.6756,11,46,Watkins Glen,42.3369,-76.9272,237.253,20080.378
+1970,1,30,Kyalami,-25.9894,28.0767,2,45,Jarama,40.6171,-3.58558,8096.484,8096.484
+1970,2,45,Jarama,40.6171,-3.58558,3,6,Circuit de Monaco,43.7347,7.42056,970.007,9066.491
+1970,3,6,Circuit de Monaco,43.7347,7.42056,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,9819.768
+1970,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,10058.366
+1970,5,39,Circuit Park Zandvoort,52.3888,4.54092,6,51,Charade Circuit,45.7472,3.03889,746.531,10804.896
+1970,6,51,Charade Circuit,45.7472,3.03889,7,38,Brands Hatch,51.3569,0.263056,656.253,11461.149
+1970,7,38,Brands Hatch,51.3569,0.263056,8,10,Hockenheimring,49.3278,8.56583,630.486,12091.635
+1970,8,10,Hockenheimring,49.3278,8.56583,9,70,Red Bull Ring,47.2197,14.7647,514.965,12606.6
+1970,9,70,Red Bull Ring,47.2197,14.7647,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,456.504,13063.104
+1970,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,11,52,Circuit Mont-Tremblant,46.1877,-74.6099,6164.862,19227.966
+1970,11,52,Circuit Mont-Tremblant,46.1877,-74.6099,12,46,Watkins Glen,42.3369,-76.9272,466.205,19694.171
+1970,12,46,Watkins Glen,42.3369,-76.9272,13,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,22986.162
+1969,1,30,Kyalami,-25.9894,28.0767,2,49,Montjuïc,41.3664,2.15167,7951.69,7951.69
+1969,2,49,Montjuïc,41.3664,2.15167,3,6,Circuit de Monaco,43.7347,7.42056,505.447,8457.137
+1969,3,6,Circuit de Monaco,43.7347,7.42056,4,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,9442.727
+1969,4,39,Circuit Park Zandvoort,52.3888,4.54092,5,51,Charade Circuit,45.7472,3.03889,746.531,10189.258
+1969,5,51,Charade Circuit,45.7472,3.03889,6,9,Silverstone Circuit,52.0786,-1.01694,763.564,10952.822
+1969,6,9,Silverstone Circuit,52.0786,-1.01694,7,20,Nürburgring,50.3356,6.9475,587.345,11540.167
+1969,7,20,Nürburgring,50.3356,6.9475,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,12092.934
+1969,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,48,Mosport International Raceway,44.0481,-78.6756,6562.254,18655.188
+1969,9,48,Mosport International Raceway,44.0481,-78.6756,10,46,Watkins Glen,42.3369,-76.9272,237.253,18892.441
+1969,10,46,Watkins Glen,42.3369,-76.9272,11,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,22184.432
+1968,1,30,Kyalami,-25.9894,28.0767,2,45,Jarama,40.6171,-3.58558,8096.484,8096.484
+1968,2,45,Jarama,40.6171,-3.58558,3,6,Circuit de Monaco,43.7347,7.42056,970.007,9066.491
+1968,3,6,Circuit de Monaco,43.7347,7.42056,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,9819.768
+1968,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,10058.366
+1968,5,39,Circuit Park Zandvoort,52.3888,4.54092,6,53,Rouen-Les-Essarts,49.3306,1.00458,420.898,10479.263
+1968,6,53,Rouen-Les-Essarts,49.3306,1.00458,7,38,Brands Hatch,51.3569,0.263056,231.374,10710.637
+1968,7,38,Brands Hatch,51.3569,0.263056,8,20,Nürburgring,50.3356,6.9475,482.664,11193.301
+1968,8,20,Nürburgring,50.3356,6.9475,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,11746.068
+1968,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,10,52,Circuit Mont-Tremblant,46.1877,-74.6099,6164.862,17910.93
+1968,10,52,Circuit Mont-Tremblant,46.1877,-74.6099,11,46,Watkins Glen,42.3369,-76.9272,466.205,18377.135
+1968,11,46,Watkins Glen,42.3369,-76.9272,12,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,21669.126
+1967,1,30,Kyalami,-25.9894,28.0767,2,6,Circuit de Monaco,43.7347,7.42056,8034.35,8034.35
+1967,2,6,Circuit de Monaco,43.7347,7.42056,3,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,9019.94
+1967,3,39,Circuit Park Zandvoort,52.3888,4.54092,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,238.598,9258.537
+1967,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,54,Le Mans,47.95,0.224231,500.678,9759.215
+1967,5,54,Le Mans,47.95,0.224231,6,9,Silverstone Circuit,52.0786,-1.01694,467.548,10226.764
+1967,6,9,Silverstone Circuit,52.0786,-1.01694,7,20,Nürburgring,50.3356,6.9475,587.345,10814.109
+1967,7,20,Nürburgring,50.3356,6.9475,8,48,Mosport International Raceway,44.0481,-78.6756,6141.778,16955.887
+1967,8,48,Mosport International Raceway,44.0481,-78.6756,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,6562.254,23518.141
+1967,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,10,46,Watkins Glen,42.3369,-76.9272,6557.006,30075.147
+1967,10,46,Watkins Glen,42.3369,-76.9272,11,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,33367.138
+1966,1,6,Circuit de Monaco,43.7347,7.42056,2,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,753.277
+1966,2,13,Circuit de Spa-Francorchamps,50.4372,5.97139,3,55,Reims-Gueux,49.2542,3.93083,196.741,950.018
+1966,3,55,Reims-Gueux,49.2542,3.93083,4,38,Brands Hatch,51.3569,0.263056,349.949,1299.967
+1966,4,38,Brands Hatch,51.3569,0.263056,5,39,Circuit Park Zandvoort,52.3888,4.54092,315.245,1615.212
+1966,5,39,Circuit Park Zandvoort,52.3888,4.54092,6,20,Nürburgring,50.3356,6.9475,282.882,1898.095
+1966,6,20,Nürburgring,50.3356,6.9475,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,2450.862
+1966,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,8,46,Watkins Glen,42.3369,-76.9272,6557.006,9007.868
+1966,8,46,Watkins Glen,42.3369,-76.9272,9,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,12299.859
+1965,1,56,Prince George Circuit,-33.0486,27.8736,2,6,Circuit de Monaco,43.7347,7.42056,8786.715,8786.715
+1965,2,6,Circuit de Monaco,43.7347,7.42056,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,9539.992
+1965,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,51,Charade Circuit,45.7472,3.03889,565.043,10105.035
+1965,4,51,Charade Circuit,45.7472,3.03889,5,9,Silverstone Circuit,52.0786,-1.01694,763.564,10868.599
+1965,5,9,Silverstone Circuit,52.0786,-1.01694,6,39,Circuit Park Zandvoort,52.3888,4.54092,379.967,11248.566
+1965,6,39,Circuit Park Zandvoort,52.3888,4.54092,7,20,Nürburgring,50.3356,6.9475,282.882,11531.448
+1965,7,20,Nürburgring,50.3356,6.9475,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,12084.215
+1965,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,46,Watkins Glen,42.3369,-76.9272,6557.006,18641.221
+1965,9,46,Watkins Glen,42.3369,-76.9272,10,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,21933.212
+1964,1,6,Circuit de Monaco,43.7347,7.42056,2,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,985.59
+1964,2,39,Circuit Park Zandvoort,52.3888,4.54092,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,238.598,1224.188
+1964,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,53,Rouen-Les-Essarts,49.3306,1.00458,376.443,1600.631
+1964,4,53,Rouen-Les-Essarts,49.3306,1.00458,5,38,Brands Hatch,51.3569,0.263056,231.374,1832.005
+1964,5,38,Brands Hatch,51.3569,0.263056,6,20,Nürburgring,50.3356,6.9475,482.664,2314.668
+1964,6,20,Nürburgring,50.3356,6.9475,7,57,Zeltweg,47.2039,14.7478,668.862,2983.531
+1964,7,57,Zeltweg,47.2039,14.7478,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,454.684,3438.215
+1964,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,46,Watkins Glen,42.3369,-76.9272,6557.006,9995.221
+1964,9,46,Watkins Glen,42.3369,-76.9272,10,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,13287.212
+1963,1,6,Circuit de Monaco,43.7347,7.42056,2,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,753.277
+1963,2,13,Circuit de Spa-Francorchamps,50.4372,5.97139,3,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,991.875
+1963,3,39,Circuit Park Zandvoort,52.3888,4.54092,4,55,Reims-Gueux,49.2542,3.93083,351.173,1343.048
+1963,4,55,Reims-Gueux,49.2542,3.93083,5,9,Silverstone Circuit,52.0786,-1.01694,469.101,1812.149
+1963,5,9,Silverstone Circuit,52.0786,-1.01694,6,20,Nürburgring,50.3356,6.9475,587.345,2399.495
+1963,6,20,Nürburgring,50.3356,6.9475,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,2952.262
+1963,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,8,46,Watkins Glen,42.3369,-76.9272,6557.006,9509.268
+1963,8,46,Watkins Glen,42.3369,-76.9272,9,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,3291.991,12801.259
+1963,9,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,10,56,Prince George Circuit,-33.0486,27.8736,14570.966,27372.225
+1962,1,39,Circuit Park Zandvoort,52.3888,4.54092,2,6,Circuit de Monaco,43.7347,7.42056,985.59,985.59
+1962,2,6,Circuit de Monaco,43.7347,7.42056,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,753.277,1738.867
+1962,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,53,Rouen-Les-Essarts,49.3306,1.00458,376.443,2115.31
+1962,4,53,Rouen-Les-Essarts,49.3306,1.00458,5,58,Aintree,53.4769,-2.94056,535.958,2651.268
+1962,5,58,Aintree,53.4769,-2.94056,6,20,Nürburgring,50.3356,6.9475,762.08,3413.349
+1962,6,20,Nürburgring,50.3356,6.9475,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,3966.116
+1962,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,8,46,Watkins Glen,42.3369,-76.9272,6557.006,10523.122
+1962,8,46,Watkins Glen,42.3369,-76.9272,9,56,Prince George Circuit,-33.0486,27.8736,13533.179,24056.301
+1961,1,6,Circuit de Monaco,43.7347,7.42056,2,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,985.59
+1961,2,39,Circuit Park Zandvoort,52.3888,4.54092,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,238.598,1224.188
+1961,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,55,Reims-Gueux,49.2542,3.93083,196.741,1420.929
+1961,4,55,Reims-Gueux,49.2542,3.93083,5,58,Aintree,53.4769,-2.94056,668.796,2089.725
+1961,5,58,Aintree,53.4769,-2.94056,6,20,Nürburgring,50.3356,6.9475,762.08,2851.805
+1961,6,20,Nürburgring,50.3356,6.9475,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,3404.572
+1961,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,8,46,Watkins Glen,42.3369,-76.9272,6557.006,9961.578
+1960,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,6,Circuit de Monaco,43.7347,7.42056,10971.51,10971.51
+1960,2,6,Circuit de Monaco,43.7347,7.42056,3,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,18307.983
+1960,3,19,Indianapolis Motor Speedway,39.795,-86.2347,4,39,Circuit Park Zandvoort,52.3888,4.54092,6666.736,24974.719
+1960,4,39,Circuit Park Zandvoort,52.3888,4.54092,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,238.598,25213.317
+1960,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6,55,Reims-Gueux,49.2542,3.93083,196.741,25410.057
+1960,6,55,Reims-Gueux,49.2542,3.93083,7,9,Silverstone Circuit,52.0786,-1.01694,469.101,25879.159
+1960,7,9,Silverstone Circuit,52.0786,-1.01694,8,59,Circuito da Boavista,41.1705,-8.67325,1344.717,27223.876
+1960,8,59,Circuito da Boavista,41.1705,-8.67325,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,1528.682,28752.558
+1960,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,10,60,Riverside International Raceway,33.937,-117.273,9667.455,38420.013
+1959,1,6,Circuit de Monaco,43.7347,7.42056,2,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,7336.473
+1959,2,19,Indianapolis Motor Speedway,39.795,-86.2347,3,39,Circuit Park Zandvoort,52.3888,4.54092,6666.736,14003.21
+1959,3,39,Circuit Park Zandvoort,52.3888,4.54092,4,55,Reims-Gueux,49.2542,3.93083,351.173,14354.383
+1959,4,55,Reims-Gueux,49.2542,3.93083,5,58,Aintree,53.4769,-2.94056,668.796,15023.179
+1959,5,58,Aintree,53.4769,-2.94056,6,61,AVUS,52.4806,13.2514,1087.349,16110.528
+1959,6,61,AVUS,52.4806,13.2514,7,62,Monsanto Park Circuit,38.7197,-9.20306,2304.86,18415.388
+1959,7,62,Monsanto Park Circuit,38.7197,-9.20306,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,1699.964,20115.351
+1959,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,63,Sebring International Raceway,27.4547,-81.3483,7914.334,28029.686
+1958,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,6,Circuit de Monaco,43.7347,7.42056,10971.51,10971.51
+1958,2,6,Circuit de Monaco,43.7347,7.42056,3,39,Circuit Park Zandvoort,52.3888,4.54092,985.59,11957.1
+1958,3,39,Circuit Park Zandvoort,52.3888,4.54092,4,19,Indianapolis Motor Speedway,39.795,-86.2347,6666.736,18623.836
+1958,4,19,Indianapolis Motor Speedway,39.795,-86.2347,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,25480.954
+1958,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6,55,Reims-Gueux,49.2542,3.93083,196.741,25677.695
+1958,6,55,Reims-Gueux,49.2542,3.93083,7,9,Silverstone Circuit,52.0786,-1.01694,469.101,26146.796
+1958,7,9,Silverstone Circuit,52.0786,-1.01694,8,20,Nürburgring,50.3356,6.9475,587.345,26734.141
+1958,8,20,Nürburgring,50.3356,6.9475,9,59,Circuito da Boavista,41.1705,-8.67325,1577.883,28312.025
+1958,9,59,Circuito da Boavista,41.1705,-8.67325,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,1528.682,29840.707
+1958,10,14,Autodromo Nazionale di Monza,45.6156,9.28111,11,64,Ain Diab,33.5786,-7.6875,1968.538,31809.245
+1957,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,6,Circuit de Monaco,43.7347,7.42056,10971.51,10971.51
+1957,2,6,Circuit de Monaco,43.7347,7.42056,3,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,18307.983
+1957,3,19,Indianapolis Motor Speedway,39.795,-86.2347,4,53,Rouen-Les-Essarts,49.3306,1.00458,6601.012,24908.995
+1957,4,53,Rouen-Les-Essarts,49.3306,1.00458,5,58,Aintree,53.4769,-2.94056,535.958,25444.953
+1957,5,58,Aintree,53.4769,-2.94056,6,20,Nürburgring,50.3356,6.9475,762.08,26207.034
+1957,6,20,Nürburgring,50.3356,6.9475,7,65,Pescara Circuit,42.475,14.1508,1032.838,27239.872
+1957,7,65,Pescara Circuit,42.475,14.1508,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,522.737,27762.608
+1956,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,6,Circuit de Monaco,43.7347,7.42056,10971.51,10971.51
+1956,2,6,Circuit de Monaco,43.7347,7.42056,3,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,18307.983
+1956,3,19,Indianapolis Motor Speedway,39.795,-86.2347,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,25165.101
+1956,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,55,Reims-Gueux,49.2542,3.93083,196.741,25361.842
+1956,5,55,Reims-Gueux,49.2542,3.93083,6,9,Silverstone Circuit,52.0786,-1.01694,469.101,25830.943
+1956,6,9,Silverstone Circuit,52.0786,-1.01694,7,20,Nürburgring,50.3356,6.9475,587.345,26418.288
+1956,7,20,Nürburgring,50.3356,6.9475,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,26971.055
+1955,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,6,Circuit de Monaco,43.7347,7.42056,10971.51,10971.51
+1955,2,6,Circuit de Monaco,43.7347,7.42056,3,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,18307.983
+1955,3,19,Indianapolis Motor Speedway,39.795,-86.2347,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,25165.101
+1955,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,25403.699
+1955,5,39,Circuit Park Zandvoort,52.3888,4.54092,6,58,Aintree,53.4769,-2.94056,515.555,25919.253
+1955,6,58,Aintree,53.4769,-2.94056,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,1238.407,27157.66
+1954,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,19,Indianapolis Motor Speedway,39.795,-86.2347,8759.595,8759.595
+1954,2,19,Indianapolis Motor Speedway,39.795,-86.2347,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,15616.713
+1954,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,55,Reims-Gueux,49.2542,3.93083,196.741,15813.454
+1954,4,55,Reims-Gueux,49.2542,3.93083,5,9,Silverstone Circuit,52.0786,-1.01694,469.101,16282.555
+1954,5,9,Silverstone Circuit,52.0786,-1.01694,6,20,Nürburgring,50.3356,6.9475,587.345,16869.9
+1954,6,20,Nürburgring,50.3356,6.9475,7,66,Circuit Bremgarten,46.9589,7.40194,376.952,17246.852
+1954,7,66,Circuit Bremgarten,46.9589,7.40194,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,207.741,17454.593
+1954,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,67,Circuit de Pedralbes,41.3903,2.11667,744.229,18198.822
+1953,1,25,Autódromo Juan y Oscar Gálvez,-34.6943,-58.4593,2,19,Indianapolis Motor Speedway,39.795,-86.2347,8759.595,8759.595
+1953,2,19,Indianapolis Motor Speedway,39.795,-86.2347,3,39,Circuit Park Zandvoort,52.3888,4.54092,6666.736,15426.331
+1953,3,39,Circuit Park Zandvoort,52.3888,4.54092,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,238.598,15664.929
+1953,4,13,Circuit de Spa-Francorchamps,50.4372,5.97139,5,55,Reims-Gueux,49.2542,3.93083,196.741,15861.67
+1953,5,55,Reims-Gueux,49.2542,3.93083,6,9,Silverstone Circuit,52.0786,-1.01694,469.101,16330.771
+1953,6,9,Silverstone Circuit,52.0786,-1.01694,7,20,Nürburgring,50.3356,6.9475,587.345,16918.116
+1953,7,20,Nürburgring,50.3356,6.9475,8,66,Circuit Bremgarten,46.9589,7.40194,376.952,17295.068
+1953,8,66,Circuit Bremgarten,46.9589,7.40194,9,14,Autodromo Nazionale di Monza,45.6156,9.28111,207.741,17502.808
+1952,1,66,Circuit Bremgarten,46.9589,7.40194,2,19,Indianapolis Motor Speedway,39.795,-86.2347,7143.743,7143.743
+1952,2,19,Indianapolis Motor Speedway,39.795,-86.2347,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,14000.861
+1952,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,53,Rouen-Les-Essarts,49.3306,1.00458,376.443,14377.304
+1952,4,53,Rouen-Les-Essarts,49.3306,1.00458,5,9,Silverstone Circuit,52.0786,-1.01694,337.065,14714.369
+1952,5,9,Silverstone Circuit,52.0786,-1.01694,6,20,Nürburgring,50.3356,6.9475,587.345,15301.715
+1952,6,20,Nürburgring,50.3356,6.9475,7,39,Circuit Park Zandvoort,52.3888,4.54092,282.882,15584.597
+1952,7,39,Circuit Park Zandvoort,52.3888,4.54092,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,16412.887
+1951,1,66,Circuit Bremgarten,46.9589,7.40194,2,19,Indianapolis Motor Speedway,39.795,-86.2347,7143.743,7143.743
+1951,2,19,Indianapolis Motor Speedway,39.795,-86.2347,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6857.118,14000.861
+1951,3,13,Circuit de Spa-Francorchamps,50.4372,5.97139,4,55,Reims-Gueux,49.2542,3.93083,196.741,14197.602
+1951,4,55,Reims-Gueux,49.2542,3.93083,5,9,Silverstone Circuit,52.0786,-1.01694,469.101,14666.703
+1951,5,9,Silverstone Circuit,52.0786,-1.01694,6,20,Nürburgring,50.3356,6.9475,587.345,15254.048
+1951,6,20,Nürburgring,50.3356,6.9475,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,552.767,15806.815
+1951,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,8,67,Circuit de Pedralbes,41.3903,2.11667,744.229,16551.044
+1950,1,9,Silverstone Circuit,52.0786,-1.01694,2,6,Circuit de Monaco,43.7347,7.42056,1119.235,1119.235
+1950,2,6,Circuit de Monaco,43.7347,7.42056,3,19,Indianapolis Motor Speedway,39.795,-86.2347,7336.473,8455.708
+1950,3,19,Indianapolis Motor Speedway,39.795,-86.2347,4,66,Circuit Bremgarten,46.9589,7.40194,7143.743,15599.451
+1950,4,66,Circuit Bremgarten,46.9589,7.40194,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,400.746,16000.197
+1950,5,13,Circuit de Spa-Francorchamps,50.4372,5.97139,6,55,Reims-Gueux,49.2542,3.93083,196.741,16196.938
+1950,6,55,Reims-Gueux,49.2542,3.93083,7,14,Autodromo Nazionale di Monza,45.6156,9.28111,570.377,16767.314
+2011,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2011,2,2,Sepang International Circuit,2.76083,101.738,3,17,Shanghai International Circuit,31.3389,121.22,3777.389,10111.97
+2011,3,17,Shanghai International Circuit,31.3389,121.22,4,5,Istanbul Park,40.9517,29.405,7929.281,18041.251
+2011,4,5,Istanbul Park,40.9517,29.405,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,2260.551,20301.802
+2011,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,20787.444
+2011,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,26909.182
+2011,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,12,Valencia Street Circuit,39.4589,-0.331667,5829.555,32738.737
+2011,8,12,Valencia Street Circuit,39.4589,-0.331667,9,9,Silverstone Circuit,52.0786,-1.01694,1404.238,34142.975
+2011,9,9,Silverstone Circuit,52.0786,-1.01694,10,20,Nürburgring,50.3356,6.9475,587.345,34730.32
+2011,10,20,Nürburgring,50.3356,6.9475,11,11,Hungaroring,47.5789,19.2486,947.673,35677.994
+2011,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,36695.588
+2011,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,37285.373
+2011,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,47546.358
+2011,14,15,Marina Bay Street Circuit,1.2914,103.864,15,22,Suzuka Circuit,34.8431,136.541,5035.986,52582.343
+2011,15,22,Suzuka Circuit,34.8431,136.541,16,35,Korean International Circuit,34.7333,126.417,924.22,53506.563
+2011,16,35,Korean International Circuit,34.7333,126.417,17,68,Buddh International Circuit,28.3487,77.5331,4641.552,58148.115
+2011,17,68,Buddh International Circuit,28.3487,77.5331,18,24,Yas Marina Circuit,24.4672,54.6031,2320.321,60468.436
+2011,18,24,Yas Marina Circuit,24.4672,54.6031,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,12149.092,72617.528
+2012,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2012,2,2,Sepang International Circuit,2.76083,101.738,3,17,Shanghai International Circuit,31.3389,121.22,3777.389,10111.97
+2012,3,17,Shanghai International Circuit,31.3389,121.22,4,3,Bahrain International Circuit,26.0325,50.5106,6804.824,16916.795
+2012,4,3,Bahrain International Circuit,26.0325,50.5106,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,21627.725
+2012,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,22113.367
+2012,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,28235.105
+2012,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,12,Valencia Street Circuit,39.4589,-0.331667,5829.555,34064.66
+2012,8,12,Valencia Street Circuit,39.4589,-0.331667,9,9,Silverstone Circuit,52.0786,-1.01694,1404.238,35468.898
+2012,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,36209.085
+2012,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,37019.798
+2012,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,38037.392
+2012,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,38627.178
+2012,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,48888.162
+2012,14,15,Marina Bay Street Circuit,1.2914,103.864,15,22,Suzuka Circuit,34.8431,136.541,5035.986,53924.148
+2012,15,22,Suzuka Circuit,34.8431,136.541,16,35,Korean International Circuit,34.7333,126.417,924.22,54848.368
+2012,16,35,Korean International Circuit,34.7333,126.417,17,68,Buddh International Circuit,28.3487,77.5331,4641.552,59489.92
+2012,17,68,Buddh International Circuit,28.3487,77.5331,18,24,Yas Marina Circuit,24.4672,54.6031,2320.321,61810.24
+2012,18,24,Yas Marina Circuit,24.4672,54.6031,19,69,Circuit of the Americas,30.1328,-97.6411,13260.636,75070.876
+2012,19,69,Circuit of the Americas,30.1328,-97.6411,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,8085.182,83156.058
+2013,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2013,2,2,Sepang International Circuit,2.76083,101.738,3,17,Shanghai International Circuit,31.3389,121.22,3777.389,10111.97
+2013,3,17,Shanghai International Circuit,31.3389,121.22,4,3,Bahrain International Circuit,26.0325,50.5106,6804.824,16916.795
+2013,4,3,Bahrain International Circuit,26.0325,50.5106,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,21627.725
+2013,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,22113.367
+2013,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,28235.105
+2013,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,9,Silverstone Circuit,52.0786,-1.01694,5137.22,33372.325
+2013,8,9,Silverstone Circuit,52.0786,-1.01694,9,20,Nürburgring,50.3356,6.9475,587.345,33959.67
+2013,9,20,Nürburgring,50.3356,6.9475,10,11,Hungaroring,47.5789,19.2486,947.673,34907.343
+2013,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,35924.938
+2013,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,36514.723
+2013,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,46775.707
+2013,13,15,Marina Bay Street Circuit,1.2914,103.864,14,35,Korean International Circuit,34.7333,126.417,4392.322,51168.029
+2013,14,35,Korean International Circuit,34.7333,126.417,15,22,Suzuka Circuit,34.8431,136.541,924.22,52092.249
+2013,15,22,Suzuka Circuit,34.8431,136.541,16,68,Buddh International Circuit,28.3487,77.5331,5556.22,57648.469
+2013,16,68,Buddh International Circuit,28.3487,77.5331,17,24,Yas Marina Circuit,24.4672,54.6031,2320.321,59968.79
+2013,17,24,Yas Marina Circuit,24.4672,54.6031,18,69,Circuit of the Americas,30.1328,-97.6411,13260.636,73229.426
+2013,18,69,Circuit of the Americas,30.1328,-97.6411,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,8085.182,81314.607
+2014,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2014,2,2,Sepang International Circuit,2.76083,101.738,3,3,Bahrain International Circuit,26.0325,50.5106,6040.7,12375.281
+2014,3,3,Bahrain International Circuit,26.0325,50.5106,4,17,Shanghai International Circuit,31.3389,121.22,6804.824,19180.106
+2014,4,17,Shanghai International Circuit,31.3389,121.22,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,9779.977,28960.083
+2014,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,29445.725
+2014,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,35567.463
+2014,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,70,Red Bull Ring,47.2197,14.7647,6390.494,41957.957
+2014,8,70,Red Bull Ring,47.2197,14.7647,9,9,Silverstone Circuit,52.0786,-1.01694,1254.642,43212.599
+2014,9,9,Silverstone Circuit,52.0786,-1.01694,10,10,Hockenheimring,49.3278,8.56583,740.187,43952.786
+2014,10,10,Hockenheimring,49.3278,8.56583,11,11,Hungaroring,47.5789,19.2486,810.714,44763.499
+2014,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,45781.094
+2014,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,46370.879
+2014,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,56631.863
+2014,14,15,Marina Bay Street Circuit,1.2914,103.864,15,22,Suzuka Circuit,34.8431,136.541,5035.986,61667.849
+2014,15,22,Suzuka Circuit,34.8431,136.541,16,71,Sochi Autodrom,43.4057,39.9578,7903.816,69571.665
+2014,16,71,Sochi Autodrom,43.4057,39.9578,17,69,Circuit of the Americas,30.1328,-97.6411,10767.679,80339.345
+2014,17,69,Circuit of the Americas,30.1328,-97.6411,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,8085.182,88424.526
+2014,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,19,24,Yas Marina Circuit,24.4672,54.6031,12149.092,100573.618
+2015,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,2,Sepang International Circuit,2.76083,101.738,6334.581,6334.581
+2015,2,2,Sepang International Circuit,2.76083,101.738,3,17,Shanghai International Circuit,31.3389,121.22,3777.389,10111.97
+2015,3,17,Shanghai International Circuit,31.3389,121.22,4,3,Bahrain International Circuit,26.0325,50.5106,6804.824,16916.795
+2015,4,3,Bahrain International Circuit,26.0325,50.5106,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,4710.93,21627.725
+2015,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,22113.367
+2015,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,28235.105
+2015,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,70,Red Bull Ring,47.2197,14.7647,6390.494,34625.599
+2015,8,70,Red Bull Ring,47.2197,14.7647,9,9,Silverstone Circuit,52.0786,-1.01694,1254.642,35880.241
+2015,9,9,Silverstone Circuit,52.0786,-1.01694,10,11,Hungaroring,47.5789,19.2486,1531.286,37411.527
+2015,10,11,Hungaroring,47.5789,19.2486,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,38429.121
+2015,11,13,Circuit de Spa-Francorchamps,50.4372,5.97139,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,39018.906
+2015,12,14,Autodromo Nazionale di Monza,45.6156,9.28111,13,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,49279.891
+2015,13,15,Marina Bay Street Circuit,1.2914,103.864,14,22,Suzuka Circuit,34.8431,136.541,5035.986,54315.876
+2015,14,22,Suzuka Circuit,34.8431,136.541,15,71,Sochi Autodrom,43.4057,39.9578,7903.816,62219.693
+2015,15,71,Sochi Autodrom,43.4057,39.9578,16,69,Circuit of the Americas,30.1328,-97.6411,10767.679,72987.372
+2015,16,69,Circuit of the Americas,30.1328,-97.6411,17,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,74189.241
+2015,17,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,81620.223
+2015,18,18,Autódromo José Carlos Pace,-23.7036,-46.6997,19,24,Yas Marina Circuit,24.4672,54.6031,12149.092,93769.315
+2016,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,3,Bahrain International Circuit,26.0325,50.5106,12112.634,12112.634
+2016,2,3,Bahrain International Circuit,26.0325,50.5106,3,17,Shanghai International Circuit,31.3389,121.22,6804.824,18917.459
+2016,3,17,Shanghai International Circuit,31.3389,121.22,4,71,Sochi Autodrom,43.4057,39.9578,7021.977,25939.436
+2016,4,71,Sochi Autodrom,43.4057,39.9578,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,3071.381,29010.817
+2016,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,29496.459
+2016,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,35618.197
+2016,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,73,Baku City Circuit,40.3725,49.8533,8930.529,44548.726
+2016,8,73,Baku City Circuit,40.3725,49.8533,9,70,Red Bull Ring,47.2197,14.7647,2890.546,47439.272
+2016,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,48693.914
+2016,10,9,Silverstone Circuit,52.0786,-1.01694,11,11,Hungaroring,47.5789,19.2486,1531.286,50225.2
+2016,11,11,Hungaroring,47.5789,19.2486,12,10,Hockenheimring,49.3278,8.56583,810.714,51035.913
+2016,12,10,Hockenheimring,49.3278,8.56583,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,223.078,51258.991
+2016,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,51848.776
+2016,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,62109.761
+2016,15,15,Marina Bay Street Circuit,1.2914,103.864,16,2,Sepang International Circuit,2.76083,101.738,287.245,62397.006
+2016,16,2,Sepang International Circuit,2.76083,101.738,17,22,Suzuka Circuit,34.8431,136.541,5061.729,67458.735
+2016,17,22,Suzuka Circuit,34.8431,136.541,18,69,Circuit of the Americas,30.1328,-97.6411,10829.001,78287.735
+2016,18,69,Circuit of the Americas,30.1328,-97.6411,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,79489.605
+2016,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,86920.587
+2016,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,21,24,Yas Marina Circuit,24.4672,54.6031,12149.092,99069.679
+2017,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,17,Shanghai International Circuit,31.3389,121.22,8078.465,8078.465
+2017,2,17,Shanghai International Circuit,31.3389,121.22,3,3,Bahrain International Circuit,26.0325,50.5106,6804.824,14883.289
+2017,3,3,Bahrain International Circuit,26.0325,50.5106,4,71,Sochi Autodrom,43.4057,39.9578,2154.952,17038.241
+2017,4,71,Sochi Autodrom,43.4057,39.9578,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,3071.381,20109.622
+2017,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,20595.264
+2017,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,26717.002
+2017,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,73,Baku City Circuit,40.3725,49.8533,8930.529,35647.531
+2017,8,73,Baku City Circuit,40.3725,49.8533,9,70,Red Bull Ring,47.2197,14.7647,2890.546,38538.076
+2017,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,39792.718
+2017,10,9,Silverstone Circuit,52.0786,-1.01694,11,11,Hungaroring,47.5789,19.2486,1531.286,41324.004
+2017,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,42341.599
+2017,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,42931.384
+2017,13,14,Autodromo Nazionale di Monza,45.6156,9.28111,14,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,53192.368
+2017,14,15,Marina Bay Street Circuit,1.2914,103.864,15,2,Sepang International Circuit,2.76083,101.738,287.245,53479.613
+2017,15,2,Sepang International Circuit,2.76083,101.738,16,22,Suzuka Circuit,34.8431,136.541,5061.729,58541.342
+2017,16,22,Suzuka Circuit,34.8431,136.541,17,69,Circuit of the Americas,30.1328,-97.6411,10829.001,69370.343
+2017,17,69,Circuit of the Americas,30.1328,-97.6411,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,70572.212
+2017,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,78003.194
+2017,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,20,24,Yas Marina Circuit,24.4672,54.6031,12149.092,90152.286
+2018,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,3,Bahrain International Circuit,26.0325,50.5106,12112.634,12112.634
+2018,2,3,Bahrain International Circuit,26.0325,50.5106,3,17,Shanghai International Circuit,31.3389,121.22,6804.824,18917.459
+2018,3,17,Shanghai International Circuit,31.3389,121.22,4,73,Baku City Circuit,40.3725,49.8533,6336.884,25254.343
+2018,4,73,Baku City Circuit,40.3725,49.8533,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,3946.501,29200.844
+2018,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,29686.486
+2018,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,35808.224
+2018,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,34,Circuit Paul Ricard,43.2506,5.79167,6039.222,41847.446
+2018,8,34,Circuit Paul Ricard,43.2506,5.79167,9,70,Red Bull Ring,47.2197,14.7647,828.945,42676.391
+2018,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,43931.033
+2018,10,9,Silverstone Circuit,52.0786,-1.01694,11,10,Hockenheimring,49.3278,8.56583,740.187,44671.22
+2018,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,45481.934
+2018,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,46499.528
+2018,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,47089.313
+2018,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,57350.297
+2018,15,15,Marina Bay Street Circuit,1.2914,103.864,16,71,Sochi Autodrom,43.4057,39.9578,7831.502,65181.799
+2018,16,71,Sochi Autodrom,43.4057,39.9578,17,22,Suzuka Circuit,34.8431,136.541,7903.816,73085.615
+2018,17,22,Suzuka Circuit,34.8431,136.541,18,69,Circuit of the Americas,30.1328,-97.6411,10829.001,83914.616
+2018,18,69,Circuit of the Americas,30.1328,-97.6411,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,85116.485
+2018,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,92547.467
+2018,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,21,24,Yas Marina Circuit,24.4672,54.6031,12149.092,104696.559
+2019,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,3,Bahrain International Circuit,26.0325,50.5106,12112.634,12112.634
+2019,2,3,Bahrain International Circuit,26.0325,50.5106,3,17,Shanghai International Circuit,31.3389,121.22,6804.824,18917.459
+2019,3,17,Shanghai International Circuit,31.3389,121.22,4,73,Baku City Circuit,40.3725,49.8533,6336.884,25254.343
+2019,4,73,Baku City Circuit,40.3725,49.8533,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,3946.501,29200.844
+2019,5,4,Circuit de Barcelona-Catalunya,41.57,2.26111,6,6,Circuit de Monaco,43.7347,7.42056,485.642,29686.486
+2019,6,6,Circuit de Monaco,43.7347,7.42056,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,35808.224
+2019,7,7,Circuit Gilles Villeneuve,45.5,-73.5228,8,34,Circuit Paul Ricard,43.2506,5.79167,6039.222,41847.446
+2019,8,34,Circuit Paul Ricard,43.2506,5.79167,9,70,Red Bull Ring,47.2197,14.7647,828.945,42676.391
+2019,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,43931.033
+2019,10,9,Silverstone Circuit,52.0786,-1.01694,11,10,Hockenheimring,49.3278,8.56583,740.187,44671.22
+2019,11,10,Hockenheimring,49.3278,8.56583,12,11,Hungaroring,47.5789,19.2486,810.714,45481.934
+2019,12,11,Hungaroring,47.5789,19.2486,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,46499.528
+2019,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,47089.313
+2019,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,57350.297
+2019,15,15,Marina Bay Street Circuit,1.2914,103.864,16,71,Sochi Autodrom,43.4057,39.9578,7831.502,65181.799
+2019,16,71,Sochi Autodrom,43.4057,39.9578,17,22,Suzuka Circuit,34.8431,136.541,7903.816,73085.615
+2019,17,22,Suzuka Circuit,34.8431,136.541,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,11598.803,84684.418
+2019,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,19,69,Circuit of the Americas,30.1328,-97.6411,1201.869,85886.287
+2019,19,69,Circuit of the Americas,30.1328,-97.6411,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,8085.182,93971.469
+2019,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,21,24,Yas Marina Circuit,24.4672,54.6031,12149.092,106120.561
+2020,1,70,Red Bull Ring,47.2197,14.7647,2,70,Red Bull Ring,47.2197,14.7647,0.0,0.0
+2020,2,70,Red Bull Ring,47.2197,14.7647,3,11,Hungaroring,47.5789,19.2486,339.793,339.793
+2020,3,11,Hungaroring,47.5789,19.2486,4,9,Silverstone Circuit,52.0786,-1.01694,1531.286,1871.079
+2020,4,9,Silverstone Circuit,52.0786,-1.01694,5,9,Silverstone Circuit,52.0786,-1.01694,0.0,1871.079
+2020,5,9,Silverstone Circuit,52.0786,-1.01694,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,1194.499,3065.578
+2020,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,7,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1026.446,4092.024
+2020,7,13,Circuit de Spa-Francorchamps,50.4372,5.97139,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,589.785,4681.809
+2020,8,14,Autodromo Nazionale di Monza,45.6156,9.28111,9,76,Autodromo Internazionale del Mugello,43.9975,11.3719,244.073,4925.882
+2020,9,76,Autodromo Internazionale del Mugello,43.9975,11.3719,10,71,Sochi Autodrom,43.4057,39.9578,2287.37,7213.252
+2020,10,71,Sochi Autodrom,43.4057,39.9578,11,20,Nürburgring,50.3356,6.9475,2600.64,9813.892
+2020,11,20,Nürburgring,50.3356,6.9475,12,75,Autódromo Internacional do Algarve,37.227,-8.6267,1912.491,11726.383
+2020,12,75,Autódromo Internacional do Algarve,37.227,-8.6267,13,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,1879.997,13606.379
+2020,13,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,14,5,Istanbul Park,40.9517,29.405,1491.758,15098.138
+2020,14,5,Istanbul Park,40.9517,29.405,15,3,Bahrain International Circuit,26.0325,50.5106,2553.23,17651.367
+2020,15,3,Bahrain International Circuit,26.0325,50.5106,16,3,Bahrain International Circuit,26.0325,50.5106,0.0,17651.367
+2020,16,3,Bahrain International Circuit,26.0325,50.5106,17,24,Yas Marina Circuit,24.4672,54.6031,446.842,18098.21
+2021,1,3,Bahrain International Circuit,26.0325,50.5106,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,4018.268,4018.268
+2021,2,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,3,75,Autódromo Internacional do Algarve,37.227,-8.6267,1879.997,5898.265
+2021,3,75,Autódromo Internacional do Algarve,37.227,-8.6267,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,1051.726,6949.991
+2021,4,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5,6,Circuit de Monaco,43.7347,7.42056,485.642,7435.633
+2021,5,6,Circuit de Monaco,43.7347,7.42056,6,73,Baku City Circuit,40.3725,49.8533,3484.887,10920.52
+2021,6,73,Baku City Circuit,40.3725,49.8533,7,34,Circuit Paul Ricard,43.2506,5.79167,3623.398,14543.917
+2021,7,34,Circuit Paul Ricard,43.2506,5.79167,8,70,Red Bull Ring,47.2197,14.7647,828.945,15372.862
+2021,8,70,Red Bull Ring,47.2197,14.7647,9,70,Red Bull Ring,47.2197,14.7647,0.0,15372.862
+2021,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,16627.504
+2021,10,9,Silverstone Circuit,52.0786,-1.01694,11,11,Hungaroring,47.5789,19.2486,1531.286,18158.79
+2021,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,19176.385
+2021,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,19414.982
+2021,13,39,Circuit Park Zandvoort,52.3888,4.54092,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,20243.273
+2021,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,71,Sochi Autodrom,43.4057,39.9578,2429.925,22673.198
+2021,15,71,Sochi Autodrom,43.4057,39.9578,16,5,Istanbul Park,40.9517,29.405,910.627,23583.825
+2021,16,5,Istanbul Park,40.9517,29.405,17,69,Circuit of the Americas,30.1328,-97.6411,10418.765,34002.59
+2021,17,69,Circuit of the Americas,30.1328,-97.6411,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,35204.459
+2021,18,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,42635.441
+2021,19,18,Autódromo José Carlos Pace,-23.7036,-46.6997,20,78,Losail International Circuit,25.49,51.4542,11883.612,54519.054
+2021,20,78,Losail International Circuit,25.49,51.4542,21,77,Jeddah Corniche Circuit,21.6319,39.1044,1329.131,55848.184
+2021,21,77,Jeddah Corniche Circuit,21.6319,39.1044,22,24,Yas Marina Circuit,24.4672,54.6031,1615.855,57464.039
+2022,1,3,Bahrain International Circuit,26.0325,50.5106,2,77,Jeddah Corniche Circuit,21.6319,39.1044,1258.432,1258.432
+2022,2,77,Jeddah Corniche Circuit,21.6319,39.1044,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,12817.119,14075.551
+2022,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,16086.362,30161.913
+2022,4,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,5,79,Miami International Autodrome,25.9581,-80.2389,8172.919,38334.831
+2022,5,79,Miami International Autodrome,25.9581,-80.2389,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,7536.286,45871.118
+2022,6,4,Circuit de Barcelona-Catalunya,41.57,2.26111,7,6,Circuit de Monaco,43.7347,7.42056,485.642,46356.76
+2022,7,6,Circuit de Monaco,43.7347,7.42056,8,73,Baku City Circuit,40.3725,49.8533,3484.887,49841.646
+2022,8,73,Baku City Circuit,40.3725,49.8533,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,8930.529,58772.176
+2022,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,10,9,Silverstone Circuit,52.0786,-1.01694,5137.22,63909.396
+2022,10,9,Silverstone Circuit,52.0786,-1.01694,11,70,Red Bull Ring,47.2197,14.7647,1254.642,65164.038
+2022,11,70,Red Bull Ring,47.2197,14.7647,12,34,Circuit Paul Ricard,43.2506,5.79167,828.945,65992.983
+2022,12,34,Circuit Paul Ricard,43.2506,5.79167,13,11,Hungaroring,47.5789,19.2486,1153.356,67146.339
+2022,13,11,Hungaroring,47.5789,19.2486,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,68163.933
+2022,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,68402.53
+2022,15,39,Circuit Park Zandvoort,52.3888,4.54092,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,69230.821
+2022,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,17,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,79491.805
+2022,17,15,Marina Bay Street Circuit,1.2914,103.864,18,22,Suzuka Circuit,34.8431,136.541,5035.986,84527.791
+2022,18,22,Suzuka Circuit,34.8431,136.541,19,69,Circuit of the Americas,30.1328,-97.6411,10829.001,95356.791
+2022,19,69,Circuit of the Americas,30.1328,-97.6411,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,96558.661
+2022,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,103989.643
+2022,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,22,24,Yas Marina Circuit,24.4672,54.6031,12149.092,116138.735
+2023,1,3,Bahrain International Circuit,26.0325,50.5106,2,77,Jeddah Corniche Circuit,21.6319,39.1044,1258.432,1258.432
+2023,2,77,Jeddah Corniche Circuit,21.6319,39.1044,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,12817.119,14075.551
+2023,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,4,73,Baku City Circuit,40.3725,49.8533,12989.082,27064.633
+2023,4,73,Baku City Circuit,40.3725,49.8533,5,79,Miami International Autodrome,25.9581,-80.2389,11015.933,38080.566
+2023,5,79,Miami International Autodrome,25.9581,-80.2389,6,6,Circuit de Monaco,43.7347,7.42056,7870.826,45951.392
+2023,6,6,Circuit de Monaco,43.7347,7.42056,7,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,46437.034
+2023,7,4,Circuit de Barcelona-Catalunya,41.57,2.26111,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,52328.547
+2023,8,7,Circuit Gilles Villeneuve,45.5,-73.5228,9,70,Red Bull Ring,47.2197,14.7647,6390.494,58719.041
+2023,9,70,Red Bull Ring,47.2197,14.7647,10,9,Silverstone Circuit,52.0786,-1.01694,1254.642,59973.683
+2023,10,9,Silverstone Circuit,52.0786,-1.01694,11,11,Hungaroring,47.5789,19.2486,1531.286,61504.969
+2023,11,11,Hungaroring,47.5789,19.2486,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,62522.564
+2023,12,13,Circuit de Spa-Francorchamps,50.4372,5.97139,13,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,62761.161
+2023,13,39,Circuit Park Zandvoort,52.3888,4.54092,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,63589.451
+2023,14,14,Autodromo Nazionale di Monza,45.6156,9.28111,15,15,Marina Bay Street Circuit,1.2914,103.864,10260.984,73850.436
+2023,15,15,Marina Bay Street Circuit,1.2914,103.864,16,22,Suzuka Circuit,34.8431,136.541,5035.986,78886.421
+2023,16,22,Suzuka Circuit,34.8431,136.541,17,78,Losail International Circuit,25.49,51.4542,8003.989,86890.411
+2023,17,78,Losail International Circuit,25.49,51.4542,18,69,Circuit of the Americas,30.1328,-97.6411,13008.463,99898.873
+2023,18,69,Circuit of the Americas,30.1328,-97.6411,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,101100.743
+2023,19,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,108531.725
+2023,20,18,Autódromo José Carlos Pace,-23.7036,-46.6997,21,80,Las Vegas Strip Street Circuit,36.1147,-115.173,9787.882,118319.607
+2023,21,80,Las Vegas Strip Street Circuit,36.1147,-115.173,22,24,Yas Marina Circuit,24.4672,54.6031,13193.629,131513.236
+2024,1,3,Bahrain International Circuit,26.0325,50.5106,2,77,Jeddah Corniche Circuit,21.6319,39.1044,1258.432,1258.432
+2024,2,77,Jeddah Corniche Circuit,21.6319,39.1044,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,12817.119,14075.551
+2024,3,1,Albert Park Grand Prix Circuit,-37.8497,144.968,4,22,Suzuka Circuit,34.8431,136.541,8129.72,22205.271
+2024,4,22,Suzuka Circuit,34.8431,136.541,5,17,Shanghai International Circuit,31.3389,121.22,1477.814,23683.085
+2024,5,17,Shanghai International Circuit,31.3389,121.22,6,79,Miami International Autodrome,25.9581,-80.2389,13248.553,36931.638
+2024,6,79,Miami International Autodrome,25.9581,-80.2389,7,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,8172.919,45104.557
+2024,7,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,8,6,Circuit de Monaco,43.7347,7.42056,349.981,45454.538
+2024,8,6,Circuit de Monaco,43.7347,7.42056,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,6121.738,51576.276
+2024,9,7,Circuit Gilles Villeneuve,45.5,-73.5228,10,4,Circuit de Barcelona-Catalunya,41.57,2.26111,5891.513,57467.789
+2024,10,4,Circuit de Barcelona-Catalunya,41.57,2.26111,11,70,Red Bull Ring,47.2197,14.7647,1173.274,58641.063
+2024,11,70,Red Bull Ring,47.2197,14.7647,12,9,Silverstone Circuit,52.0786,-1.01694,1254.642,59895.705
+2024,12,9,Silverstone Circuit,52.0786,-1.01694,13,11,Hungaroring,47.5789,19.2486,1531.286,61426.991
+2024,13,11,Hungaroring,47.5789,19.2486,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,1017.594,62444.585
+2024,14,13,Circuit de Spa-Francorchamps,50.4372,5.97139,15,39,Circuit Park Zandvoort,52.3888,4.54092,238.598,62683.183
+2024,15,39,Circuit Park Zandvoort,52.3888,4.54092,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,63511.473
+2024,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,17,73,Baku City Circuit,40.3725,49.8533,3314.422,66825.896
+2024,17,73,Baku City Circuit,40.3725,49.8533,18,15,Marina Bay Street Circuit,1.2914,103.864,6946.64,73772.535
+2024,18,15,Marina Bay Street Circuit,1.2914,103.864,19,69,Circuit of the Americas,30.1328,-97.6411,15843.05,89615.585
+2024,19,69,Circuit of the Americas,30.1328,-97.6411,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,90817.455
+2024,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,98248.437
+2024,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,22,80,Las Vegas Strip Street Circuit,36.1147,-115.173,9787.882,108036.319
+2024,22,80,Las Vegas Strip Street Circuit,36.1147,-115.173,23,78,Losail International Circuit,25.49,51.4542,13022.628,121058.947
+2024,23,78,Losail International Circuit,25.49,51.4542,24,24,Yas Marina Circuit,24.4672,54.6031,337.14,121396.087
+2025,1,1,Albert Park Grand Prix Circuit,-37.8497,144.968,2,17,Shanghai International Circuit,31.3389,121.22,8078.465,8078.465
+2025,2,17,Shanghai International Circuit,31.3389,121.22,3,22,Suzuka Circuit,34.8431,136.541,1477.814,9556.278
+2025,3,22,Suzuka Circuit,34.8431,136.541,4,3,Bahrain International Circuit,26.0325,50.5106,8054.345,17610.623
+2025,4,3,Bahrain International Circuit,26.0325,50.5106,5,77,Jeddah Corniche Circuit,21.6319,39.1044,1258.432,18869.055
+2025,5,77,Jeddah Corniche Circuit,21.6319,39.1044,6,79,Miami International Autodrome,25.9581,-80.2389,11605.626,30474.681
+2025,6,79,Miami International Autodrome,25.9581,-80.2389,7,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,8172.919,38647.6
+2025,7,21,Autodromo Enzo e Dino Ferrari,44.3439,11.7167,8,6,Circuit de Monaco,43.7347,7.42056,349.981,38997.581
+2025,8,6,Circuit de Monaco,43.7347,7.42056,9,4,Circuit de Barcelona-Catalunya,41.57,2.26111,485.642,39483.223
+2025,9,4,Circuit de Barcelona-Catalunya,41.57,2.26111,10,7,Circuit Gilles Villeneuve,45.5,-73.5228,5891.513,45374.736
+2025,10,7,Circuit Gilles Villeneuve,45.5,-73.5228,11,70,Red Bull Ring,47.2197,14.7647,6390.494,51765.23
+2025,11,70,Red Bull Ring,47.2197,14.7647,12,9,Silverstone Circuit,52.0786,-1.01694,1254.642,53019.872
+2025,12,9,Silverstone Circuit,52.0786,-1.01694,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,519.164,53539.036
+2025,13,13,Circuit de Spa-Francorchamps,50.4372,5.97139,14,11,Hungaroring,47.5789,19.2486,1017.594,54556.63
+2025,14,11,Hungaroring,47.5789,19.2486,15,39,Circuit Park Zandvoort,52.3888,4.54092,1176.817,55733.447
+2025,15,39,Circuit Park Zandvoort,52.3888,4.54092,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,828.29,56561.737
+2025,16,14,Autodromo Nazionale di Monza,45.6156,9.28111,17,73,Baku City Circuit,40.3725,49.8533,3314.422,59876.159
+2025,17,73,Baku City Circuit,40.3725,49.8533,18,15,Marina Bay Street Circuit,1.2914,103.864,6946.64,66822.799
+2025,18,15,Marina Bay Street Circuit,1.2914,103.864,19,69,Circuit of the Americas,30.1328,-97.6411,15843.05,82665.849
+2025,19,69,Circuit of the Americas,30.1328,-97.6411,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,1201.869,83867.719
+2025,20,32,Autódromo Hermanos Rodríguez,19.4042,-99.0907,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,7430.982,91298.7
+2025,21,18,Autódromo José Carlos Pace,-23.7036,-46.6997,22,80,Las Vegas Strip Street Circuit,36.1147,-115.173,9787.882,101086.583
+2025,22,80,Las Vegas Strip Street Circuit,36.1147,-115.173,23,78,Losail International Circuit,25.49,51.4542,13022.628,114109.211
+2025,23,78,Losail International Circuit,25.49,51.4542,24,24,Yas Marina Circuit,24.4672,54.6031,337.14,114446.351
