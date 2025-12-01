@@ -109,29 +109,26 @@ Promise.all([
 		races_this_year.forEach((race) => {
 			circuits.forEach((circuit) => {
 				if (race["circuitId"] == circuit["circuitId"]) {
-					lines.push([{x: circuit["lng"], y: circuit["lat"]}])
+					lines.push([{x: +circuit["lng"], y: +circuit["lat"]}])
 				}
 			})
 		})
 
 		console.log(lines);
 
-//		const lineGenerator = d3.line()
-//		    .x(d => projection([+d.x, +d.y])[0])
-//		    .y(d => projection([+d.x, +d.y])[1]);
-//
-//		let grand_paths = g.selectAll("path.line")
-//		    .data(lines)
-//		    .enter()
-//		    .append("path")
-//		    .attr("class", "line")
-//		    .attr("d", d => lineGenerator(d))
-//		    .attr("stroke", "black")
-//		    .attr("stroke-width", 2)
-//		    .attr("fill", "none")
-//			.attr("transform", (d) => {
-//    			return "translate(" + projection([+d.x, +d.y]) + ")";
-//			})
+		const lineGenerator = d3.line()
+		    .x(d => projection([d.x, d.y])[0])
+		    .y(d => projection([d.x, d.y])[1]);
+
+		let grand_paths = g.selectAll("path.line")
+		    .data(lines)
+		    .enter()
+		    .append("path")
+		    .attr("class", "line")
+		    .attr("d", d => lineGenerator(d))
+		    .attr("stroke", "black")
+		    .attr("stroke-width", 2)
+		    .attr("fill", "none")
 
 //		let grand_paths = g.selectAll("line")
 //			.data(lines)
