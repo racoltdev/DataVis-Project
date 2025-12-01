@@ -18,7 +18,7 @@ const g = svg.append("g").attr("class","map-layer");
 const graticule = d3.geoGraticule();
 
 // Projection: Mercator. We'll set scale/translate in resize()
-const projection = d3.geoMercator();
+const projection = d3.geoMercator()
 const geopath_generator = d3.geoPath().projection(projection);
 
 // Draw graticule first (so it's below countries)
@@ -120,11 +120,15 @@ Promise.all([
 			return [point, points[i + 1]];
 		});
 
-		const lineGenerator = d3.line()
-		    .x(d => projection([d.x, d.y])[0])
-		    .y(d => projection([d.x, d.y])[1]);
+		console.log(lineSegments)
 
-		let grand_paths = g.selectAll("travel-line")
+		const lineGenerator = d3.line()
+		    //.x(d => projection([d.x, d.y])[0])
+		    //.y(d => projection([d.x, d.y])[1]);
+			.x(d => d.x)
+			.y(d => d.y)
+
+		let grand_paths = g.selectAll(".travel-line")
 		    .data(lineSegments)
 			.enter()
 			.append("path")
