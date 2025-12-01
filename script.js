@@ -109,7 +109,7 @@ Promise.all([
 		races_this_year.forEach((race) => {
 			circuits.forEach((circuit) => {
 				if (race["circuitId"] == circuit["circuitId"]) {
-					lines.push([{x: +circuit["lng"], y: +circuit["lat"]}])
+					lines.push({x: +circuit["lng"], y: +circuit["lat"]})
 				}
 			})
 		})
@@ -120,11 +120,11 @@ Promise.all([
 		    .x(d => projection([d.x, d.y])[0])
 		    .y(d => projection([d.x, d.y])[1]);
 
-		let grand_paths = g.selectAll("path.line")
+		let grand_paths = g.selectAll("travel-line")
 		    .data(lines)
-		    .enter()
-		    .append("path")
-		    .attr("class", "line")
+			.enter()
+			.append("path")
+			.attr("class", "travel-line")
 		    .attr("d", d => lineGenerator(d))
 		    .attr("stroke", "black")
 		    .attr("stroke-width", 2)
