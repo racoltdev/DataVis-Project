@@ -5,6 +5,9 @@ const all_races = "./data/races.csv"
 const container = d3.select("#map");
 const tooltip = container.append("div").attr("class","tooltip");
 
+const width = Math.max(320, container.node().clientWidth || 720);
+const height = 420;
+
 // Create responsive SVG
 const svg = container.append("svg")
     .attr("width", "100%")

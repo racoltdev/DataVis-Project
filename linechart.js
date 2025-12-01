@@ -46,7 +46,7 @@
                 return;
             }
 
-            const margin = {top: 24, right: 12, bottom: 60, left: 64};
+            const margin = {top: 24, right: 12, bottom: 75, left: 75};
             const width = Math.max(320, container.node().clientWidth || 720);
             const height = 420;
 
@@ -64,12 +64,18 @@
             const x = d3.scaleBand()
                 .domain(rows.map((d,i)=> i ))
                 .range([0, innerW])
-                .padding(0.15);
+                .padding(0.2);
 
             const y = d3.scaleLinear()
                 .domain([0, d3.max(rows, d=> d.distance_km) * 1.05])
                 .nice()
                 .range([innerH, 0]);
+
+            // Color scale based on from_round (for consistent coloring)
+            const maxRound = d3.max(rows, d => d.from_round);
+            const colorScale = d3.scaleLinear()
+                .domain([1, maxRound])
+                .range(['#3b82f6', '#ef4444']);  // blue to red
 
             const xAxis = g.append('g')
                 .attr('transform', `translate(0,${innerH})`)
@@ -85,7 +91,7 @@
             g.append('g')
                 .call(d3.axisLeft(y).ticks(6).tickFormat(d => d + ' km'));
 
-            // bars
+            // bars with color coding by round
             g.selectAll('rect.bar')
                 .data(rows)
                 .enter()
@@ -95,7 +101,7 @@
                 .attr('y', d => y(d.distance_km))
                 .attr('width', x.bandwidth())
                 .attr('height', d => Math.max(1, innerH - y(d.distance_km)))
-                .attr('fill', '#2563eb')
+                .attr('fill', d => colorScale(d.from_round))
                 .on('mousemove', function(event, d){
                     const [mx,my] = d3.pointer(event, container.node());
                     tooltip.style('opacity',1)
@@ -104,6 +110,26 @@
                         .html(`${d.from_name} → ${d.to_name}<br/><strong>${d.distance_km} km</strong>`);
                 })
                 .on('mouseleave', function(){ tooltip.style('opacity',0); });
+
+            // distance labels on top of bars (vertical orientation, one decimal place)
+            g.selectAll('text.bar-label')
+                .data(rows)
+                .enter()
+                .append('text')
+                .attr('class','bar-label')
+                .attr('x', (d,i) => x(i) + x.bandwidth()/2)
+                .attr('y', d => y(d.distance_km) - 4)
+                .attr('text-anchor','top')
+                .attr('dominant-baseline','auto')
+                .attr('font-size','11px')
+                .attr('font-weight','600')
+                .attr('fill','#111827')
+                .attr('transform', (d,i) => {
+                    const xi = x(i) + x.bandwidth()/2;
+                    const yi = y(d.distance_km) - 10;
+                    return `rotate(-90 ${xi} ${yi})`;
+                })
+                .text(d => d.distance_km.toFixed(1));
 
             // axis labels
             svg.append('text')
@@ -116,7 +142,7 @@
             svg.append('text')
                 .attr('transform', 'rotate(-90)')
                 .attr('x', - (margin.top + innerH/2))
-                .attr('y', 14)
+                .attr('y', 10)
                 .attr('text-anchor','middle')
                 .attr('class','foot')
                 .text('Distance (km)');
