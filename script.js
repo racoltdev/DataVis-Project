@@ -114,23 +114,20 @@ Promise.all([
 			})
 		})
 
-		console.log(points);
-
 		const lineSegments = points.slice(0, -1).map((point, i) => {
 			return [point, points[i + 1]];
 		});
 
-		console.log(lineSegments)
+		// Magic transformations to the projection that make numbers good :D
 		scaled_proj = projection
 			.center([-100, 44])
 			.scale(153)
-		console.log(scaled_proj([points[0].x, points[0].y]))
 
 		const lineGenerator = d3.line()
 		    .x(d => scaled_proj([d.x, d.y])[0])
 		    .y(d => scaled_proj([d.x, d.y])[1]);
-			//.x(d => d.x)
-			//.y(d => d.y)
+
+		g.selectAll(".travel-line").remove();
 
 		let grand_paths = g.selectAll(".travel-line")
 		    .data(lineSegments)
@@ -141,21 +138,6 @@ Promise.all([
 		    .attr("stroke", "black")
 		    .attr("stroke-width", 2)
 		    .attr("fill", "none")
-
-//		let grand_paths = g.selectAll("line")
-//			.data(lines)
-//			.enter()
-//			.append("path")
-//			.attr("d", d3.line()
-//				.x((d) => x(projection(+d.x)))
-//				.y((d) => y(projection(+d.y)))
-//			)
-//			.attr("stroke", "black")
-//			.attr("stroke-width", "10px")
-//			.attr("transform", (d) => {
-//    			return "translate(" + projection([+d.x, +d.y]) + ")";
-//			})
-		console.log(grand_paths)
 	}
 
     // On first render and on window resize, compute scale/translate to fit the world
