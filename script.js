@@ -164,7 +164,7 @@ Promise.all([
 
     // Setup d3-zoom for pan & zoom with limits
     const zoom = d3.zoom()
-        .scaleExtent([0.6, 8])
+        .scaleExtent([0.75, 8])
         .on("zoom", (event) => {
             g.attr("transform", event.transform);
         });

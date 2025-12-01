@@ -37,7 +37,7 @@ h1 {
     max-width: 100%;
     /* Use aspect-ratio so the SVG/map scales responsively */
     aspect-ratio: 16 / 9;
-    min-height: 240px;
+    min-height: 350px;
     max-height: 1400px;
     position: relative;
 }
