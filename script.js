@@ -121,12 +121,16 @@ Promise.all([
 		});
 
 		console.log(lineSegments)
+		scaled_proj = projection
+			.center([-100, 44])
+			.scale(153)
+		console.log(scaled_proj([points[0].x, points[0].y]))
 
 		const lineGenerator = d3.line()
-		    //.x(d => projection([d.x, d.y])[0])
-		    //.y(d => projection([d.x, d.y])[1]);
-			.x(d => d.x)
-			.y(d => d.y)
+		    .x(d => scaled_proj([d.x, d.y])[0])
+		    .y(d => scaled_proj([d.x, d.y])[1]);
+			//.x(d => d.x)
+			//.y(d => d.y)
 
 		let grand_paths = g.selectAll(".travel-line")
 		    .data(lineSegments)
