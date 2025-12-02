@@ -45,6 +45,8 @@ Promise.all([
 	// topojson.feature converts to GeoJSON FeatureCollection
 	const countries = topojson.feature(topology, topology.objects.countries);
 
+	const distance_during = 305;
+
 	// create country shapes
 	g.selectAll("path.country")
 		.data(countries.features)
@@ -91,9 +93,19 @@ Promise.all([
 			tooltip.style("opacity", 0);
 		})
 
+	const radius = 5;
+	const arc = d3.arc()
+		.innerRadius(radius * 0.67)
+		.outerRadius(radius - 1);
+
+	const pie = d3.pie()
+		.padAngle(1 / radius)
+		.sort(null)
+		.value(d => d.value)
 
 	updateYear = function() {
 		const race_pairs = []
+
 		circuitPath.attr("opacity", (d) => {
 			circuit = d.circuitId;
 			year = document.getElementById("year").value
@@ -107,6 +119,11 @@ Promise.all([
 			})
 			return opacity;
 		})
+		.data(pie([distance_during, race_pairs.at(-1)["distance_km"]]))
+		.join("path")
+		//.attr("fill", d => color(race_pairs.at(-1)["from_round"]))
+		.attr("fill", "black")
+		.attr("d", arc)
 
 		const lineSegments = race_pairs.map((pair) => {
 			return [
