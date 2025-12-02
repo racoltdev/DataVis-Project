@@ -66,9 +66,6 @@ Promise.all([
 		.x(d => scaled_proj([d.x, d.y])[0])
 		.y(d => scaled_proj([d.x, d.y])[1]);
 
-	const circuitLocations = []
-	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
-
 	// create country shapes
 	g.selectAll("path.country")
 		.data(countries.features)
@@ -93,18 +90,16 @@ Promise.all([
 		g.selectAll(".circuit").remove()
 
 		let circuitPath = g.selectAll(".circuit")
-			.data(circuits)
+			.data(pie(circuits))
 			.enter()
-			.append("circle")
+			.append("path")
+			.attr("d", arc)
 			.attr("class","circuit")
-			.attr("id", function(d, i) {return `circuit ${d["circuitId"]}`})
-			.attr("cx", 1)
-			.attr("cy", 1)
-			.attr("r", 1)
+			.attr("id", function(d, i) {console.log(d); return `circuit ${d["circuitId"]}`})
 			.attr("fill","#000")
 			.attr("stroke","#000")
 			.attr("transform", (d) => {
-				return "translate(" + scaled_proj([d['lng'], d['lat']]) + ")";
+				return "translate(" + scaled_proj([d.data['lng'], d.data['lat']]) + ")";
 			})
 			.on("mouseenter", function(event, d) {
 				tooltip.style("opacity", 1).text(d["name"] || "Unknown");
@@ -117,7 +112,7 @@ Promise.all([
 				tooltip.style("opacity", 0);
 			})
 			.attr("opacity", (d) => {
-				circuit = d.circuitId;
+				circuit = d.data.circuitId;
 				opacity = 0.0;
 				distances.some((race) => {
 					if (race["from_circuitId"] == circuit && race["year"] == year) {
@@ -128,12 +123,8 @@ Promise.all([
 				})
 				return opacity;
 			})
-			//.data(pie([distance_during, race_pairs.at(-1)["distance_km"]]))
-			//.join("path")
-			////.attr("fill", d => color(race_pairs.at(-1)["from_round"]))
-			//.attr("fill", "black")
-			//.attr("d", arc)
 
+		console.log(circuitPath)
 
 		const lineSegments = race_pairs.map((pair) => {
 			return [
@@ -163,7 +154,6 @@ Promise.all([
 			.on("mouseleave", function() {
 				tooltip.style("opacity", 0);
 			})
-		console.log(grand_paths)
 	}
 
 	// On first render and on window resize, compute scale/translate to fit the world
