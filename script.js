@@ -2,6 +2,7 @@
 const topoJsonUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"; // topojson file (countries)
 const circuits = "./data/circuits.csv"
 const all_races = "./data/races.csv"
+const distances = "./data/travel_between_races.csv"
 const container = d3.select("#map");
 const tooltip = container.append("div").attr("class","tooltip");
 
@@ -37,9 +38,10 @@ let updateYear;
 Promise.all([
 	d3.json(topoJsonUrl),
 	d3.csv(circuits),
-	d3.csv(all_races)
+	d3.csv(all_races),
+	d3.csv(distances)
 ]).then(data => {
-	const [topology, circuits, all_races] = data
+	const [topology, circuits, all_races, distances] = data
 	// topojson.feature converts to GeoJSON FeatureCollection
 	const countries = topojson.feature(topology, topology.objects.countries);
 
@@ -91,14 +93,14 @@ Promise.all([
 
 
 	updateYear = function() {
-		const races_this_year = []
+		const race_pairs = []
 		circuitPath.attr("opacity", (d) => {
 			circuit = d.circuitId;
 			year = document.getElementById("year").value
 			opacity = 0.0;
-			all_races.some((race) => {
-				if (race["circuitId"] == circuit && race["year"] == year) {
-					races_this_year.push(race);
+			distances.some((race) => {
+				if (race["from_circuitId"] == circuit && race["year"] == year) {
+					race_pairs.push(race);
 					opacity = 1.0;
 					return true
 				}
@@ -106,20 +108,12 @@ Promise.all([
 			return opacity;
 		})
 
-
-		const points = []
-
-		races_this_year.forEach((race) => {
-			circuits.forEach((circuit) => {
-				if (race["circuitId"] == circuit["circuitId"]) {
-					points.push({name: circuit["name"], x: +circuit["lng"], y: +circuit["lat"]})
-				}
-			})
+		const lineSegments = race_pairs.map((pair) => {
+			return [
+				{name: pair.from_name, x: pair.from_lng, y: pair.from_lat, distance: pair.distance_km},
+				{name: pair.to_name, x: pair.to_lng, y: pair.to_lat}
+			]
 		})
-
-		const lineSegments = points.slice(0, -1).map((point, i) => {
-			return [point, points[i + 1]];
-		});
 
 		// Magic transformations to the projection that make numbers good :D
 		scaled_proj = projection
@@ -142,7 +136,7 @@ Promise.all([
 			.attr("stroke-width", 2)
 			.attr("fill", "none")
 			.on("mouseenter", function(event, d) {
-				tooltip.style("opacity", 1).html(`${d[0].name} -> ${d[1].name}<br>Distance: NaN` || "Unknown");
+				tooltip.style("opacity", 1).html(`${d[0].name} -> ${d[1].name}<br>Distance: ${d[0].distance}km`);
 			})
 			.on("mousemove", function(event) {
 				const [mx,my] = d3.pointer(event, container.node());
