@@ -9,6 +9,14 @@
             .style('padding','18px')
             .text(msg);
     }
+	
+	// Universal domain for all rounds 1–30
+	const universalRounds = d3.range(1, 31);
+
+	const colorScale = d3.scaleOrdinal()
+		.domain(universalRounds)
+		.range(d3.schemeTableau10);
+
 
     d3.csv(DATA_CSV, d3.autoType).then(raw => {
         if(!raw || raw.length === 0){
@@ -71,11 +79,12 @@
                 .nice()
                 .range([innerH, 0]);
 
-            // Color scale based on from_round (for consistent coloring)
-            const maxRound = d3.max(rows, d => d.from_round);
-            const colorScale = d3.scaleLinear()
-                .domain([1, maxRound])
-                .range(['#3b82f6', '#ef4444']);  // blue to red
+			// Universal domain for all rounds 1–30
+			const universalRounds = d3.range(1, 31);
+
+			const colorScale = d3.scaleOrdinal()
+				.domain(universalRounds)
+				.range(d3.schemeTableau10);
 
             const xAxis = g.append('g')
                 .attr('transform', `translate(0,${innerH})`)

@@ -139,8 +139,6 @@ h1 {
 }
 }
 
-.line-cont { display: block; }
-
 /* Responsive adjustments */
 @media (max-width: 1100px) {
     .wrap { padding: 10px; }
@@ -168,3 +166,22 @@ h1 {
     height: 100% !important;
     display: block;
 }
+
+.bar {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.dist1 {
+  width: 250px;
+  background-color: red;
+}
+
+.dist2 {
+  width: 300px;
+  background-color: blue;
+}
+

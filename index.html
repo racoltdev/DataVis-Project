@@ -12,7 +12,7 @@
 	
 <body>
 	<div class="container">
-		<h1>Formula 1 Travel Visualizer</h1>
+		<h2>Formula 1 Travel Visualizer</h2>
 	</div>
 
 	<!---- YEAR SELECTOR ---->
@@ -46,8 +46,7 @@
 
 		<!-- TRAVEL MAP PROJECTION -->
 		<div class="container half">
-			<!-- INSERT JAVASCRIPT -->
-			<h2> Formula 1 Travel Map for the Year 2025 </h2>
+			<h3> Race Travel Map </h3>
 			<div class="wrap">
 				<div class="map-card">
 					<div id="map" class="map-container"></div>
@@ -65,8 +64,7 @@
 
 		<!-- TRAVEL DATA BAR CHARTS -->
 		<div class="container half">
-			<!-- INSERT JAVASCRIPT -->
-			<h2> Formula 1 Travel Data for the Year 2025 </h2>
+			<h3> Inter-Race Travel Distances </h3>
 			<div class="wrap">
 				<div class="map-card">
 					<div id="travel-chart" class="chart-container"></div>
@@ -76,12 +74,14 @@
 
 	</div>
 
-	<div class="container line-cont"> <!-- HOUSES THIRD VISUALIZATION -->
-		<!-- INSERT JAVASCRIPT FOR HORIZONTAL STACKED BAR GRAPH -->
-		<h2> Distance travelled within races vs Distance travelled outside races visualization </h2>
+	<div class="container"> <!-- HOUSES THIRD VISUALIZATION -->
+		<h3> Distance travelled within vs outside races </h3>
+		<div id="bar">
+		</div>
 	</div>
 </body>
 
 	<script src="linechart.js" defer></script>
+	<script src="stackedbar.js" defer></script>
 
 </html>

@@ -52,16 +52,16 @@ Promise.all([
 		.append("path")
 		.attr("class", "country")
 		.attr("d", d => geopath_generator(d))
-		.on("mouseenter", function(event, d) {
-			tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
-		})
-		.on("mousemove", function(event) {
-			const [mx,my] = d3.pointer(event, container.node());
-			tooltip.style("left", mx + "px").style("top", my + "px");
-		})
-		.on("mouseleave", function() {
-			tooltip.style("opacity", 0);
-		});
+		// .on("mouseenter", function(event, d) {
+			// tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
+		// })
+		// .on("mousemove", function(event) {
+			// const [mx,my] = d3.pointer(event, container.node());
+			// tooltip.style("left", mx + "px").style("top", my + "px");
+		// })
+		// .on("mouseleave", function() {
+			// tooltip.style("opacity", 0);
+		// });
 
 	let circuitLocations = []
 	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
@@ -77,6 +77,7 @@ Promise.all([
 		.attr("r", 1)
 		.attr("fill","#000")
 		.attr("stroke","#000")
+		.attr("stroke-width",3)
 		.attr("transform", (d) => {
 			return "translate(" + projection([d['lng'], d['lat']]) + ")";
 		})
@@ -110,8 +111,8 @@ Promise.all([
 
 		const lineSegments = race_pairs.map((pair) => {
 			return [
-				{name: pair.from_name, x: pair.from_lng, y: pair.from_lat, distance: pair.distance_km},
-				{name: pair.to_name, x: pair.to_lng, y: pair.to_lat}
+				{name: pair.from_name, x: pair.from_lng, y: pair.from_lat, distance: pair.distance_km, from_round: pair.from_round},
+				{name: pair.to_name, x: pair.to_lng, y: pair.to_lat, from_round:pair.from_round}
 			]
 		})
 
@@ -119,6 +120,16 @@ Promise.all([
 		scaled_proj = projection
 			.center([-63, 27])
 			.scale(153)
+		
+		// Extract unique round values
+		const rounds = [...new Set(race_pairs.map(d => d.from_round))];
+
+		// Universal domain for all rounds 1–30
+		const universalRounds = d3.range(1, 31);
+
+		const colorScale = d3.scaleOrdinal()
+			.domain(universalRounds)
+			.range(d3.schemeTableau10);
 
 		const lineGenerator = d3.line()
 			.x(d => scaled_proj([d.x, d.y])[0])
@@ -132,8 +143,8 @@ Promise.all([
 			.append("path")
 			.attr("class", "travel-line")
 			.attr("d", d => lineGenerator(d))
-			.attr("stroke", "black")
-			.attr("stroke-width", 2)
+			.attr("stroke", d => colorScale(d[0].from_round))
+			.attr("stroke-width", 3)
 			.attr("fill", "none")
 			.on("mouseenter", function(event, d) {
 				tooltip.style("opacity", 1).html(`${d[0].name} -> ${d[1].name}<br>Distance: ${d[0].distance}km`);
