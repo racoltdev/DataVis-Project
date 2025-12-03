@@ -117,10 +117,10 @@ Promise.all([
 		})
 
 		// Magic transformations to the projection that make numbers good :D
-		scaled_proj = projection
+		circuit_proj = d3.geoMercator()
 			.center([-63, 27])
 			.scale(153)
-		
+
 		// Extract unique round values
 		const rounds = [...new Set(race_pairs.map(d => d.from_round))];
 
@@ -131,9 +131,12 @@ Promise.all([
 			.domain(universalRounds)
 			.range(d3.schemeTableau10);
 
-		const lineGenerator = d3.line()
-			.x(d => scaled_proj([d.x, d.y])[0])
-			.y(d => scaled_proj([d.x, d.y])[1]);
+		path_proj = d3.geoMercator()
+			.center([0, 0])
+			.scale(153)
+
+		const lineGenerator = d3.geoPath()
+			.projection(path_proj)
 
 		g.selectAll(".travel-line").remove();
 
@@ -142,7 +145,13 @@ Promise.all([
 			.enter()
 			.append("path")
 			.attr("class", "travel-line")
-			.attr("d", d => lineGenerator(d))
+			.attr("d", function(d) {
+				const link = {
+					type: "LineString",
+					coordinates: [[d[0].x, d[0].y], [d[1].x, d[1].y]]
+				}
+				return lineGenerator(link)
+			})
 			.attr("stroke", d => colorScale(d[0].from_round))
 			.attr("stroke-width", 3)
 			.attr("fill", "none")
@@ -156,6 +165,7 @@ Promise.all([
 			.on("mouseleave", function() {
 				tooltip.style("opacity", 0);
 			})
+		console.log(grand_paths)
 	}
 
 	// On first render and on window resize, compute scale/translate to fit the world
