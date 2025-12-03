@@ -117,7 +117,7 @@ Promise.all([
 
 		// Magic transformations to the projection that make numbers good :D
 		scaled_proj = projection
-			.center([-100, 44])
+			.center([-63, 27])
 			.scale(153)
 
 		const lineGenerator = d3.line()
