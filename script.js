@@ -45,27 +45,6 @@ Promise.all([
 	// topojson.feature converts to GeoJSON FeatureCollection
 	const countries = topojson.feature(topology, topology.objects.countries);
 
-	const distance_during = 305;
-
-	const radius = 5;
-	const arc = d3.arc()
-		.innerRadius(radius * 0.67)
-		.outerRadius(radius - 1);
-
-	const pie = d3.pie()
-		.padAngle(1 / radius)
-		.sort(null)
-		.value(d => d.value)
-
-	// Magic transformations to the projection that make numbers good :D
-	const scaled_proj = d3.geoMercator()
-		.center([-100, 44])
-		.scale(153)
-
-	const lineGenerator = d3.line()
-		.x(d => scaled_proj([d.x, d.y])[0])
-		.y(d => scaled_proj([d.x, d.y])[1]);
-
 	// create country shapes
 	g.selectAll("path.country")
 		.data(countries.features)
@@ -84,47 +63,50 @@ Promise.all([
 			tooltip.style("opacity", 0);
 		});
 
+	let circuitLocations = []
+	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
 
-	map_draw = function(year) {
+	let circuitPath = g.selectAll(".circuit")
+		.data(circuits)
+		.enter()
+		.append("circle")
+		.attr("class","circuit")
+		.attr("id", function(d, i) {return `circuit ${d["id"]}`})
+		.attr("cx", (d) => { return projection(+d)['lng'] })
+		.attr("cy", (d) => { return projection(+d)['lat'] })
+		.attr("r", 1)
+		.attr("fill","#000")
+		.attr("stroke","#000")
+		.attr("transform", (d) => {
+			return "translate(" + projection([d['lng'], d['lat']]) + ")";
+		})
+		.on("mouseenter", function(event, d) {
+			tooltip.style("opacity", 1).text(d["name"] || "Unknown");
+		})
+		.on("mousemove", function(event) {
+			const [mx,my] = d3.pointer(event, container.node());
+			tooltip.style("left", mx + "px").style("top", my + "px");
+		})
+		.on("mouseleave", function() {
+			tooltip.style("opacity", 0);
+		})
+
+
+	updateYear = function() {
 		const race_pairs = []
-		g.selectAll(".circuit").remove()
-
-		let circuitPath = g.selectAll(".circuit")
-			.data(pie(circuits))
-			.enter()
-			.append("path")
-			.attr("d", arc)
-			.attr("class","circuit")
-			.attr("id", function(d, i) {console.log(d); return `circuit ${d["circuitId"]}`})
-			.attr("fill","#000")
-			.attr("stroke","#000")
-			.attr("transform", (d) => {
-				return "translate(" + scaled_proj([d.data['lng'], d.data['lat']]) + ")";
+		circuitPath.attr("opacity", (d) => {
+			circuit = d.circuitId;
+			year = document.getElementById("year").value
+			opacity = 0.0;
+			distances.some((race) => {
+				if (race["from_circuitId"] == circuit && race["year"] == year) {
+					race_pairs.push(race);
+					opacity = 1.0;
+					return true
+				}
 			})
-			.on("mouseenter", function(event, d) {
-				tooltip.style("opacity", 1).text(d["name"] || "Unknown");
-			})
-			.on("mousemove", function(event) {
-				const [mx,my] = d3.pointer(event, container.node());
-				tooltip.style("left", mx + "px").style("top", my + "px");
-			})
-			.on("mouseleave", function() {
-				tooltip.style("opacity", 0);
-			})
-			.attr("opacity", (d) => {
-				circuit = d.data.circuitId;
-				opacity = 0.0;
-				distances.some((race) => {
-					if (race["from_circuitId"] == circuit && race["year"] == year) {
-						race_pairs.push(race);
-						opacity = 1.0;
-						return true
-					}
-				})
-				return opacity;
-			})
-
-		console.log(circuitPath)
+			return opacity;
+		})
 
 		const lineSegments = race_pairs.map((pair) => {
 			return [
@@ -132,6 +114,15 @@ Promise.all([
 				{name: pair.to_name, x: pair.to_lng, y: pair.to_lat}
 			]
 		})
+
+		// Magic transformations to the projection that make numbers good :D
+		scaled_proj = projection
+			.center([-100, 44])
+			.scale(153)
+
+		const lineGenerator = d3.line()
+			.x(d => scaled_proj([d.x, d.y])[0])
+			.y(d => scaled_proj([d.x, d.y])[1]);
 
 		g.selectAll(".travel-line").remove();
 
@@ -200,16 +191,5 @@ Promise.all([
 	// initial resize and attach window resize listener
 	resize();
 	window.addEventListener("resize", resize);
-
-    const yearSelect = d3.select('#year');
-	// initial draw
-	const initialYear = +yearSelect.property('value');
-	if(initialYear) map_draw(initialYear);
-
-	yearSelect.on('change', function(){
-	    const y = +this.value;
-	    map_draw(y);
-	});
-
 })
 
