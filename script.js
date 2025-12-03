@@ -191,5 +191,11 @@ Promise.all([
 	// initial resize and attach window resize listener
 	resize();
 	window.addEventListener("resize", resize);
+
+	load_init_map();
 })
 
+async function load_init_map() {
+	await new Promise(r => setTimeout(r, 50))
+	updateYear();
+}
