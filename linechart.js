@@ -10,12 +10,12 @@
             .text(msg);
     }
 	
-	// Universal domain for all rounds 1–30
-	const universalRounds = d3.range(1, 31);
+	// // Universal domain for all rounds 1–30
+	// const universalRounds = d3.range(1, 31);
 
-	const colorScale = d3.scaleOrdinal()
-		.domain(universalRounds)
-		.range(d3.schemeTableau10);
+	// const colorScale = d3.scaleOrdinal()
+		// .domain(universalRounds)
+		// .range(d3.schemeTableau10);
 
 
     d3.csv(DATA_CSV, d3.autoType).then(raw => {

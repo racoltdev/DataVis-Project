@@ -1,16 +1,10 @@
 """
-compute_travel.py
-
 Reads `data/races.csv` and `data/circuits.csv`, computes distances (km) between consecutive
 races in the same season using circuit lat/lng and outputs `data/travel_between_races.csv`.
 
 Output columns:
 year,from_round,from_circuitId,from_name,from_lat,from_lng,to_round,to_circuitId,to_name,to_lat,to_lng,distance_km
 
-Usage:
-    python compute_travel.py
-
-Optional args (see code): change input/output paths.
 """
 
 import csv

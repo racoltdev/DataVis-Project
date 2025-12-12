@@ -46,8 +46,8 @@
             let distanceWithinRaces = 0;
             yearRaces.forEach(race => {
                 const circuit = circuitMap.get(race.circuitId);
-                // Assume each race is about 305km (typical F1 race distance)
-                // or use race distance if available in your data
+                // Assuming each race is about 305km (typical F1 race distance)
+                // Should use race distance if available in your data
                 distanceWithinRaces += 305; // km per race
             });
 

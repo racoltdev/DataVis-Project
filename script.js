@@ -52,16 +52,6 @@ Promise.all([
 		.append("path")
 		.attr("class", "country")
 		.attr("d", d => geopath_generator(d))
-		// .on("mouseenter", function(event, d) {
-			// tooltip.style("opacity", 1).text(d.properties.name || "Unknown");
-		// })
-		// .on("mousemove", function(event) {
-			// const [mx,my] = d3.pointer(event, container.node());
-			// tooltip.style("left", mx + "px").style("top", my + "px");
-		// })
-		// .on("mouseleave", function() {
-			// tooltip.style("opacity", 0);
-		// });
 
 	let circuitLocations = []
 	circuits.forEach(c => circuitLocations.push([c["lng"], c["lat"]]))
@@ -174,10 +164,10 @@ Promise.all([
 		const width = Math.max(200, rect.width);
 		const height = Math.max(200, rect.height);
 
-		// set SVG viewport
+		// Set SVG viewport
 		svg.attr("viewBox", `0 0 ${width} ${height}`);
 
-		// Choose a scale; Mercator is typically narrower vertically. This is a sensible default.
+		// Choose a scale
 		const scale = Math.min(width / (2 * Math.PI), height / (Math.PI)) * 150;
 
 		// Center on [0,0] (longitude 0, latitude 0) and translate to middle of svg

@@ -14,13 +14,6 @@ html,body {
     text-align: center;
 }
 
-h1 { 
-    font-size:18px; 
-    margin:0 0 10px 0; 
-    color:#111827;
-    text-align: center;
-}
-
 .map-card {
     background: white;
     border-radius:10px;
@@ -140,21 +133,22 @@ h1 {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     .wrap { padding: 10px; }
     h1 { font-size: 17px; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .wrap { margin: 12px auto; }
     .row { flex-direction: column; gap: 0.75rem; }
-    .half { flex-basis: 100%; min-width: 0; }
+    .half { flex-basis: 100%; min-width: 280px; }
     .map-container { aspect-ratio: 4 / 3; min-height: 260px; }
     .controls { gap: 6px; }
 }
 
 @media (max-width: 600px) {
     h1 { font-size: 15px; }
+	.half { min-width: 600px;}
     .btn { padding: 6px 8px; font-size: 12px; }
     .tooltip { font-size: 12px; white-space: normal; max-width: 180px; }
     .map-container { min-height: 200px; }
